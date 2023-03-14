@@ -2,7 +2,8 @@
   "name": "identificatreinamento",
   "version": "1.0.0",
   "description": "Software para criação de identificação dos treinamentos na porta da sala dos instrutores",
-  "main": "../components/api.js",
+  "main": "./components/api.js",
+  "type": "module",
   "scripts": {
     "dev": "electron ."
   },
@@ -17,9 +18,11 @@
   "dependencies": {
     "bootstrap": "^5.3.0-alpha1",
     "bootstrap-icons": "^1.10.3",
-    "npm": "^9.4.0"
-  },
-  "devDependencies": {
-    "electron": "^22.1.0"
+    "cors": "^2.8.5",
+    "fs": "0.0.1-security",
+    "npm": "^9.4.0",
+    "path": "^0.12.7",
+    "require": "^2.4.20",
+    "sqlite3": "^5.1.4"
   }
 }

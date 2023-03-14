@@ -2,7 +2,7 @@ class GeraLinha extends HTMLElement {
     constructor(){
         super()
 
-        const shadow = this.attachShadow({ mode: 'closed'})
+        const shadow = this.attachShadow({ mode: 'open'})
         
         const row = document.createElement('div')
         row.setAttribute('class','row')
@@ -95,8 +95,8 @@ bootstrap.setAttribute('rel','stylesheet')
 bootstrap.setAttribute('href','../node_modules/bootstrap/dist/css/bootstrap.min.css')
 document.head.appendChild(bootstrap)
 
-const btImprimir = document.createElement('button')
-btImprimir.textContent = 'Imprimir'
-btImprimir.setAttribute('class','btn btn-primary')
-btImprimir.setAttribute('onclick','window.print()')
-document.body.appendChild(btImprimir)
+
+btnImprimir = document.querySelector('#btnImprimir')
+btnImprimir.setAttribute('class','btn btn-lg btn-outline-primary mt-2 col-12')
+btnImprimir.innerHTML = 'Imprimir'
+btnImprimir.setAttribute('onclick','window.print()')

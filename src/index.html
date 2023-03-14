@@ -6,15 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="../components/linha.js" defer></script>
+    <script src="../components/index.js"></script>
 </head>
 <body>
-    <gera-linha brl="1" blr="1" mb="20" mt="50"></gera-linha>
-    <gera-linha btl="1" bbl="1" btr="1" bbr="1" h="30" font="2" subtitle="T15-23">REQ-GEN-38</gera-linha>
-    <gera-linha bbl="1" bbr="1" h="30" subtitle="RECURRENT TRAINING">TAM REPAIR STATION/QUALITY CONTROL MANUAL - POLICIES AND PROCEDURES</gera-linha>
-    <gera-linha bbl="1" bbr="1" h="30" font="2">JOSE CARLOS SOUZA PINTO DE MORAES</gera-linha>
-    <gera-linha bbl="1" bbr="1" h="30" font="2" subtitle="18/02/2023 à 18/02/2023">MRO</gera-linha>
-    <gera-linha brl="1" blr="1" mt="20" mb="50"></gera-linha>
+    <div class="container">
+        <gera-linha brl="1" blr="1" mb="20" mt="50"></gera-linha>
+        <gera-linha btl="1" bbl="1" btr="1" bbr="1" h="30" font="2" id="cod" subtitle=""></gera-linha>
+        <gera-linha bbl="1" bbr="1" h="30" id="desc" subtitle=""></gera-linha>
+        <gera-linha bbl="1" bbr="1" h="30" font="2" id="coach"></gera-linha>
+        <gera-linha bbl="1" bbr="1" h="30" font="2" id="data" subtitle="">MRO</gera-linha>
+        <gera-linha brl="1" blr="1" mt="20" mb="50"></gera-linha>
+        <div class="row g-2">
+            <div class="col-12">
+                <button id="btnImprimir"></button>
+            </div>
+        </div>
+    </div>
+    <script>
+        //get values from url
+        var url_string = window.location.href;
+        var url = new URL(url_string);
+        var cod = url.searchParams.get("cod");
+        var desc = url.searchParams.get("desc");
+        var coach = url.searchParams.get("coach");
+        var data = url.searchParams.get("data");
 
-    <script src="../components/api.js"></script>
+        //setvalue in id cod and subtitle
+        document.getElementById('cod').innerHTML = cod;
+        document.getElementById('cod').setAttribute('subtitle', cod);
+        //setvalue in id desc
+        document.getElementById('desc').innerHTML = desc;
+        //setvalue in id coach
+        document.getElementById('coach').innerHTML = coach;
+        //setvalue in id data
+        document.getElementById('data').innerHTML = data;
+
+    </script>
 </body>
 </html>
