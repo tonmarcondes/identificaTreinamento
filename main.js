@@ -13,8 +13,10 @@ window.onload = async () => {
 
   document.querySelector('.pubOFF').style.display = 'none'
 
-  // console.log(cursoValue, descValue, instrutorValue)
-  //exportar variaveis
+  const favicon = document.createElement('link')
+  favicon.setAttribute('rel','shortcut icon')
+  favicon.setAttribute('href','../src/assets/img/latam.svg')
+  document.head.appendChild(favicon)
 }
 
 const getDescriptionCourseBasedOnCode = (code) => {
@@ -136,3 +138,4 @@ const escutar = () => {
     localStorage.setItem('publico',document.querySelector('#pubInp').value)
   }
 }
+
