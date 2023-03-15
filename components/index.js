@@ -1,18 +1,35 @@
-//resgatar variavel de url via get
-const urlParams = new URLSearchParams(window.location.search);
-const curso = urlParams.get('curso');
-const desc = urlParams.get('desc');
-const instrutor = urlParams.get('instrutor');
-const start = urlParams.get('start ');
-const end = urlParams.get('end');
-const turma = urlParams.get('class');
+//resgatar variavel de localstorage
+const cod = localStorage.getItem('cursoValue')
+const desc =  localStorage.getItem('descValue')
+const descSub =  localStorage.getItem('descSub')
+const instrutor =  localStorage.getItem('instrutor')
+const data =  localStorage.getItem('dataAtual')
+const turma =  localStorage.getItem('classValue')
+const publico =  localStorage.getItem('publico')
 
-// console.log(curso, desc, instrutor, start, end, turma);
+window.onload = function() {
+    //setar valores nos campos
+    document.getElementById('cod').shadowRoot.querySelector('span').innerHTML = cod
+    document.getElementById('cod').shadowRoot.querySelector('.subtitle').innerHTML  = turma
+    
+    document.getElementById('desc').shadowRoot.querySelector('span').innerHTML = desc
+    document.getElementById('desc').shadowRoot.querySelector('.subtitle').innerHTML  = descSub
+    
+    document.getElementById('coach').shadowRoot.querySelector('span').innerHTML = instrutor
+    
+    document.getElementById('data').shadowRoot.querySelector('span').innerHTML = publico
+    document.getElementById('data').shadowRoot.querySelector('.subtitle').innerHTML = data
+}
 
-//setar valores nos inputs
-//document.getElementById('cod').value = curso;
-//document.getElementById('desc').value = desc;
-// document.getElementById('coach').value = instrutor;
-// document.getElementById('data').value = start;
-// document.getElementById('end').value = end;
-// document.getElementById('class').value = turma;
+window.onunload = function() {
+    
+    //destruir variavel de localstorage quando o uauario sair da pagina
+
+localStorage.removeItem('cursoValue')
+localStorage.removeItem('descValue')
+localStorage.removeItem('descSub')
+localStorage.removeItem('instrutorValue')
+localStorage.removeItem('dataAtual')
+localStorage.removeItem('classValue')
+
+}

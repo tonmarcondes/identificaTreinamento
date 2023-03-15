@@ -4,19 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Document</title>
     <script src="./main.js"></script>
     <!-- Bootstrap CSS & JS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Service Worker -->
+    <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/service-worker.js');
+          });
+        }
+    </script>
 </head>
 <body>
     <div class="container mt-5">
-        <form action="./src/index.html" method="get">
+        <form action="src/index.html" method="get">
             <div class="row g-2 mb-2">
                 <div class="col-md-3">
                     <div class="form-floating">
-                        <select class="form-select" name="curso" id="curso" onchange="setDescriptionCourse()">
+                        <select class="form-select" name="_curso" id="curso" onchange="setDescriptionCourse()">
                             <option selected>Selecione o curso</option>
                         </select>
                         <label for="curso">Curso de Qualificação</label>
@@ -32,7 +41,7 @@
             <div class="row g-2">
                 <div class="col-md-4">
                     <div class="form-floating">
-                        <select class="form-select" name="instrutor" id="instrutor" required>
+                        <select class="form-select" name="_instrutor" id="instrutor" required>
                             <option selected value="">Selecione o instrutor</option>
                         </select>
                         <label for="instrutor">Instrutor</label>
@@ -40,26 +49,41 @@
                 </div>
                 <div class="col-md-2">
                     <div class="form-floating">
-                        <input type="text" class="form-control" name="class" id="class" required>
+                        <input type="text" class="form-control" name="_class" id="class" required>
                         <label for="class">Turma</label>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="form-floating">
-                        <input class="form-select" type="date" name="start" id="start" required placeholder="dd/mm/yyyy">
+                        <input class="form-select" type="date" name="_start" id="start" required placeholder="dd/mm/yyyy">
                         <label for="start">Data de início</label>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="form-floating">
-                        <input class="form-select" type="date" name="end" id="end" placeholder="dd/mm/yyyy">
+                        <input class="form-select" type="date" name="_end" id="end" placeholder="dd/mm/yyyy">
                         <label for="end">Data de término</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-2 mb-2">
+                <div class="col-12">
+                    <!-- SWITCH -->
+                    <div class="form-check form-switch mb-2 mt-2 pubON">
+                        <input class="form-check-input publico" type="checkbox" role="switch" value="MRO" checked onchange="escutar()">
+                        <label class="form-check-label" for="publico">MRO</label>
+                    </div>
+                    <!-- INPUT -->
+                    <div class="form-floating pubOFF mt-2">
+                        <input type="text" class="form-control" id="pubInp" >
+                        <label for="class">Publico Alvo</label>
                     </div>
                 </div>
             </div>
             <div class="row g-2">
                 <div class="col-12">
-                    <input type="submit" class="btn btn-lg btn-outline-primary mt-2 col-12" value="Visualizar">
+                    <!-- <button id="btEnviar" class="btn btn-lg btn-outline-primary mt-2 col-12" onclick="enviar()">Visualizar</button> -->
+                    <input type="submit" id="btEnviar" class="btn btn-lg btn-outline-primary mt-2 col-12" value="Visualizar">
                 </div>
             </div>
         </form>

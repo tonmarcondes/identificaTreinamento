@@ -1,3 +1,5 @@
+localStorage.clear()
+
 // export {cursoValue, descValue, instrutorValue}
 
 let mainData = []
@@ -9,7 +11,8 @@ window.onload = async () => {
   createSelectCourseOptions()
   createCoachOptions()
 
-  
+  document.querySelector('.pubOFF').style.display = 'none'
+
   // console.log(cursoValue, descValue, instrutorValue)
   //exportar variaveis
 }
@@ -74,17 +77,62 @@ const setDescriptionCourse = () => {
   inputCourseDescription.value = courseDescription
 
   var cursoValue = document.getElementById('curso').value
+  
   var descValue = document.getElementById('desc').value
+  var descSub = descValue.split(' - ')[1]
+
+  descValue = descValue.split(' - ')[0]
+
+  if (descSub == undefined) {
+    descSub = '' 
+  }
+
   var instrutorValue = document.getElementById('instrutor').value
+
 
   var startValue = new Date(document.getElementById('start').value).toLocaleString('pt-BR', { timeZone: 'UTC'}).substring(0,10)
   var endValue = new Date(document.getElementById('end').value).toLocaleString('pt-BR', { timeZone: 'UTC'}).substring(0,10)
-  if (endValue == null) {
-    cursovalue = 'SEM DATA DE FIM'
+  
+  var dataAtual = null
+
+  if (endValue == 'Invalid Da') {
+    endValue = startValue
+  } 
+
+  if 
+    (endValue == startValue) {
+  dataAtual = startValue
   }
-  var classValue = `T${document.getElementById('class').value}-${new Date().getUTCFullYear().toString().substr(2)}`
+
+  if (startValue != endValue) {
+    dataAtual = `${startValue} à ${endValue}`
+  }
 
   
+  var classValue = `T${document.getElementById('class').value}-${new Date().getUTCFullYear().toString().substring(2)}`
+  
+  //criar local storage para todos os valores
+  localStorage.setItem('cursoValue', cursoValue)
+  localStorage.setItem('descValue', descValue)
+  localStorage.setItem('descSub', descSub)
+  localStorage.setItem('instrutor', instrutorValue)
+  localStorage.setItem('dataAtual', dataAtual)
+  localStorage.setItem('classValue', classValue)
+  localStorage.setItem('publico','MRO')
+  
+  // console.log(`Curso: ${cursoValue},\nDescr: ${descValue}, \nDesc Sub: ${descSub}, \nInst: ${instrutorValue}, \nData: ${dataAtual}, \nTurma: ${classValue}`);
+}
 
-  console.log(`Curso: ${cursoValue},\nDescr: ${descValue}, \nInst: ${instrutorValue}, \nInic: ${startValue}, \nFim: ${endValue}, \nTurma: ${classValue}`);
+//event listener para o checkbox
+
+const escutar = () => {
+
+  var publico = null
+  var pub = document.querySelector('.pubON')
+  
+  if (!pub.checked){ 
+    document.querySelector('.pubON').style.display = 'none'
+    document.querySelector('.pubOFF').style.display = 'block'
+    localStorage.setItem('publico',document.querySelector('#pubInp').value)
+  }
 }
