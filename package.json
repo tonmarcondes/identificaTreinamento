@@ -5,7 +5,7 @@
   "main": "./components/api.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "keywords": [
     "identificação",
@@ -22,6 +22,6 @@
     "fs": "0.0.1-security",
     "npm": "^9.4.0",
     "path": "^0.12.7",
-    "require": "^2.4.20",
+    "require": "^2.4.20"
   }
 }
