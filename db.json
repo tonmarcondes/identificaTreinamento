@@ -152,22 +152,22 @@
     {
         "cod": "REQ-A320-22",
         "type": "course",
-        "name": "RAMP AND TRANSIT- A320 FAMILY ( IAE V2500 / CFM56 / PW1100G)"
+        "name": "RAMP AND TRANSIT - A320 FAMILY ( IAE V2500 / CFM56 / PW1100G)"
     },
     {
         "cod": "REQ-A320-32",
         "type": "course",
-        "name": "LINE AND BASE-A320 FAMILY ( IAE V2500 / CFM56 / PW1100G)"
+        "name": "LINE AND BASE-A320 FAMILY - (IAE V2500 / CFM56 / PW1100G)"
     },
     {
         "cod": "REQ-A320-35",
         "type": "course",
-        "name": "A320 FAMILY (ALL ENG)- RECURRENT TRAINING"
+        "name": "A320 FAMILY (ALL ENG) - RECURRENT TRAINING"
     },
     {
         "cod": "REQ-A320-37",
         "type": "course",
-        "name": "AIRCRAFT LINE AND BASE - A319/A320/A321 - PRATICAL TRAINING"
+        "name": "AIRCRAFT LINE AND BASE-A319/A320/A321 - PRATICAL TRAINING"
     },
     {
         "cod": "REQ-A330-10",
@@ -177,12 +177,12 @@
     {
         "cod": "REQ-A330-23",
         "type": "course",
-        "name": "RAMP AND TRANSIT - A330 (ALL ENG - PW4000 & CF6-80)"
+        "name": "RAMP AND TRANSIT - A330 (ALL ENG-PW4000 & CF6-80)"
     },
     {
         "cod": "REQ-A330-34",
         "type": "course",
-        "name": "LINE AND BASE A330 (ALL ENG - PW4000 & CF6-80)"
+        "name": "LINE AND BASE A330 (ALL ENG-PW4000 & CF6-80)"
     },
     {
         "cod": "REQ-A330-35",
@@ -192,12 +192,12 @@
     {
         "cod": "REQ-A330-36",
         "type": "course",
-        "name": "AIRCRAFT LINE AND BASE - A330 - PRATICAL TRAINING"
+        "name": "AIRCRAFT LINE AND BASE-A330 - PRATICAL TRAINING"
     },
     {
         "cod": "REQ-ATR-20",
         "type": "course",
-        "name": "AIRCRAFT RAMP AND TRANSIT – ATR-72-200-210-500 (ENGINES - PW 124/127)"
+        "name": "AIRCRAFT RAMP AND TRANSIT – ATR-72-200-210-500 (ENGINES-PW 124/127)"
     },
     {
         "cod": "REQ-ATR-30",
@@ -207,32 +207,32 @@
     {
         "cod": "REQ-ATR-31",
         "type": "course",
-        "name": "LINE AND BASE -ATR 72-200/210/212"
+        "name": "LINE AND BASE - ATR 72-200/210/212"
     },
     {
         "cod": "REQ-ATR-32",
         "type": "course",
-        "name": "RAMP AND TRANSIT -ATR 72-200/210/212"
+        "name": "RAMP AND TRANSIT - ATR 72-200/210/212"
     },
     {
         "cod": "REQ-ATR-33",
         "type": "course",
-        "name": "RAMP AND TRANSIT-ATR 42-300/320 (PW120/121)"
+        "name": "RAMP AND TRANSIT - ATR 42-300/320 (PW120/121)"
     },
     {
         "cod": "REQ-ATR-35",
         "type": "course",
-        "name": "AIRCRAFT ATR-42-300/320 REFRESHMENT WITH PW 120/121 ENGINES"
+        "name": "AIRCRAFT ATR-42-300/320 - REFRESHMENT WITH PW 120/121 ENGINES"
     },
     {
         "cod": "REQ-ATR-45",
         "type": "course",
-        "name": "AIRCRAFT ATR-72-200/210/500 REFRESHMENT WITH PW 124/127 ENGINES"
+        "name": "AIRCRAFT ATR-72-200/210/500 - REFRESHMENT WITH PW 124/127 ENGINES"
     },
     {
         "cod": "REQ-B767-20",
         "type": "course",
-        "name": "RAMP AND TRANSIT B767-300ER / 300F (WITH GE-CF6-80C2-B6F ENGINES)"
+        "name": "RAMP AND TRANSIT B767-300ER/300F - (WITH GE-CF6-80C2-B6F ENGINES)"
     },
     {
         "cod": "REQ-B767-30",
@@ -242,7 +242,7 @@
     {
         "cod": "REQ-B767-45",
         "type": "course",
-        "name": "AIRCRAFT B767-300E- REFRESHMENT"
+        "name": "AIRCRAFT B767-300E - REFRESHMENT"
     },
     {
         "cod": "REQ-CMT-01",
@@ -292,7 +292,7 @@
     {
         "cod": "REQ-GEN-15",
         "type": "course",
-        "name": "MAINTENANCE HUMAN FACTORS- RECURRENT TRAINING"
+        "name": "MAINTENANCE HUMAN FACTORS - RECURRENT TRAINING"
     },
     {
         "cod": "REQ-GEN-20",

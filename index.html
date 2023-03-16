@@ -10,7 +10,8 @@
     <!-- Bootstrap CSS & JS-->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Service Worker -->
+    <!-- Service Worker/Manifest -->
+    <link rel="manifest" href="manifest.json">
     <script>
         if ('serviceWorker' in navigator) {
           window.addEventListener('load', function() {
@@ -22,22 +23,6 @@
 <body>
     <div class="container mt-5">
         <form action="src/index.html" method="get">
-            <div class="row g-2 mb-2">
-                <div class="col-md-3">
-                    <div class="form-floating">
-                        <select class="form-select" name="_curso" id="curso" onchange="setDescriptionCourse()">
-                            <option selected>Selecione o curso</option>
-                        </select>
-                        <label for="curso">Curso de Qualificação</label>
-                    </div>
-                </div>
-                <div class="col-md">
-                    <div class="form-floating">
-                        <input type="text" readonly class="form-control" id="desc" placeholder="" required>
-                        <label for="desc">Descrição do curso</label>
-                    </div>
-                </div>
-            </div>
             <div class="row g-2">
                 <div class="col-md-4">
                     <div class="form-floating">
@@ -69,7 +54,7 @@
             <div class="row g-2 mb-2">
                 <div class="col-12">
                     <!-- SWITCH -->
-                    <div class="form-check form-switch mb-2 mt-2 pubON">
+                    <div class="form-check form-switch mt-2 pubON">
                         <input class="form-check-input publico" type="checkbox" role="switch" value="MRO" checked onchange="escutar()">
                         <label class="form-check-label" for="publico">MRO</label>
                     </div>
@@ -77,6 +62,22 @@
                     <div class="form-floating pubOFF mt-2">
                         <input type="text" class="form-control" id="pubInp" >
                         <label for="class">Publico Alvo</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-2 mb-3">
+                <div class="col-md-2">
+                    <div class="form-floating">
+                        <select class="form-select" name="_curso" id="curso" onchange="setDescriptionCourse()">
+                            <option selected>Selecione o curso</option>
+                        </select>
+                        <label for="curso">Curso de Qualificação</label>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-floating">
+                        <input type="text" readonly class="form-control" id="desc" placeholder="" required>
+                        <label for="desc">Descrição do curso</label>
                     </div>
                 </div>
             </div>
