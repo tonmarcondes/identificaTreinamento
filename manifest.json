@@ -1,8 +1,11 @@
 {
     "name": "Identifica Treinamento",
+    "description": "Sistema PWA para identificação das portas do predio de treinamento e do CML",
     "short_name": "ID Porta",
     "start_url": "/",
     "display": "standalone",
+    "orientation": "any",
+    "display_override": "window-control-overlay",
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "icons": [

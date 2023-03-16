@@ -5,7 +5,7 @@
   "main": "./components/api.js",
   "type": "module",
   "scripts": {
-    "dev": "electron ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "identificação",
@@ -23,6 +23,5 @@
     "npm": "^9.4.0",
     "path": "^0.12.7",
     "require": "^2.4.20",
-    "sqlite3": "^5.1.4"
   }
 }
