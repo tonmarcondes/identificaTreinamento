@@ -23,7 +23,6 @@ jobs:
         #   source: ./
         #   target: /var/www/html/
         env:
-        - name: Variaveis de ambiente
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           # SOURCE: ${{ secrets.SOURCE}}
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
