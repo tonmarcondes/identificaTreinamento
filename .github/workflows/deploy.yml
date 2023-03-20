@@ -14,7 +14,7 @@ jobs:
       - name: Instalando o SSH
         run: sudo apt-get install openssh-client
       - name: Deploy do codigo
-        uses: easingthemes/ssh-deploy
+        uses: easingthemes/ssh-deploy@main
         with:
           ssh_private_key: ${{ secrets.PRIVATE_KEY }}
           ssh_user: roots
