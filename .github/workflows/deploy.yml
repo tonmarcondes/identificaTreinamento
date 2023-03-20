@@ -1,0 +1,24 @@
+name: Deploy Identifica Treinamento
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Instalando o SSH
+        run: sudo apt-get install openssh-client
+      - name: Deploy do codigo
+        uses: easingthemes/ssh-deploy@v2.3.4
+        with:
+          ssh_private_key: ${{ secrets.PRIVATE_KEY }}
+          ssh_user: roots
+          ssh_host: 52.188.57.145
+          ssh_port: 22
+          source: ./
+          target: /var/www/html/
