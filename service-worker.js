@@ -5,9 +5,8 @@ const urlsToCache = [
   './db.json',
   './main.js',
   './src/index.html',
-  './src/assets/img/*',
+  './src/assets/img/latam.svg',
   './components/linha.js',
-  './components/db.js',
   './node_modules/bootstrap/dist/css/bootstrap.min.css',
   './node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
 ];

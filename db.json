@@ -1,1323 +1,1322 @@
 [
-    {
-        "cod": "0",
-        "type": "coach",
-        "name": "INSTRUTOR EXTERNO"
-    },
-    {
-        "cod": "1",
-        "type": "coach",
-        "name": "FABIANO APARECIDO URBANO"
-    },
-    {
-        "cod": "2",
-        "type": "coach",
-        "name": "HEBER LUIZ ZUNARELLI MARTINS"
-    },
-    {
-        "cod": "3",
-        "type": "coach",
-        "name": "MARLON ROGERIO LEDESMA"
-    },
-    {
-        "cod": "4",
-        "type": "coach",
-        "name": "RAFAEL GUILLEN ALVES MURTA"
-    },
-    {
-        "cod": "5",
-        "type": "coach",
-        "name": "VINICIUS SOUZA CUNHA"
-    },
-    {
-        "cod": "6",
-        "type": "coach",
-        "name": "WELLYNGTON MARCONDES"
-    },
-    {
-        "cod": "7",
-        "type": "coach",
-        "name": "WENDEL MACHADO PENIDO"
-    },
-    {
-        "cod": "8",
-        "type": "coach",
-        "name": "WILLIAM RIUKSTEIN"
-    },
-    {
-        "cod": "DIF-A320-01",
-        "type": "course",
-        "name": "AIRCRAFT DIFFERENCE COURSE - A319/A320 TO A321 WITH IAE V2500 A5"
-    },
-    {
-        "cod": "DIF-A320-02",
-        "type": "course",
-        "name": "AIRCRAFT DIFFERENCE COURSE – A319/A320 TO A318"
-    },
-    {
-        "cod": "DIF-ATR-00",
-        "type": "course",
-        "name": "AIRCRAFT DIFFERENCE COURSE ATR-72-210/500 TO 600"
-    },
-    {
-        "cod": "DIF-GEN-02",
-        "type": "course",
-        "name": "AERONAUTIC REGULATIONS & PROCEDURES DIFFERENCES COURSE (ANAC-DA -ARGENTINA)"
-    },
-    {
-        "cod": "DIF-GEN-04",
-        "type": "course",
-        "name": "AERONAUTIC REGULATIONS & PROCEDURES DIFFERENCES COURSE (UAEAC -COLOMBIA)"
-    },
-    {
-        "cod": "MM-AFR-A320",
-        "type": "course",
-        "name": "A320 FAMILY - AIRFRAME OJT"
-    },
-    {
-        "cod": "MM-AFR-A330",
-        "type": "course",
-        "name": "A330 - AIRFRAME OJT"
-    },
-    {
-        "cod": "MM-AVI-A320",
-        "type": "course",
-        "name": "A320 FAMILY - AVIONICS OJT"
-    },
-    {
-        "cod": "MM-AVI-A330",
-        "type": "course",
-        "name": "A330 - AVIONICS OJT"
-    },
-    {
-        "cod": "MM-CON-A320",
-        "type": "course",
-        "name": "A320 FAMILY - CONTROLS OJT"
-    },
-    {
-        "cod": "MM-CON-A330",
-        "type": "course",
-        "name": "A330 - CONTROLS OJT"
-    },
-    {
-        "cod": "MM-ENG-A320",
-        "type": "course",
-        "name": "A320 FAMILY - ENGINES OJT"
-    },
-    {
-        "cod": "MM-ENG-A330",
-        "type": "course",
-        "name": "A330 - ENGINES OJT"
-    },
-    {
-        "cod": "MM-HYD-A320",
-        "type": "course",
-        "name": "A320 FAMILY - HYDRAULICS OJT"
-    },
-    {
-        "cod": "MM-HYD-A330",
-        "type": "course",
-        "name": "A330 - HYDRAULICS OJT"
-    },
-    {
-        "cod": "MM-INT-A320",
-        "type": "course",
-        "name": "A320 FAMILY - INTERIORS OJT"
-    },
-    {
-        "cod": "MM-INT-A330",
-        "type": "course",
-        "name": "A330 - INTERIORS OJT"
-    },
-    {
-        "cod": "MM-STR-A320",
-        "type": "course",
-        "name": "A320 FAMILY - STRUCTURES OJT"
-    },
-    {
-        "cod": "MM-STR-A330",
-        "type": "course",
-        "name": "A330 - STRUCTURES OJT"
-    },
-    {
-        "cod": "MY-EME-02",
-        "type": "course",
-        "name": "ESCAPE SLIDE REVISION AND FOLDING"
-    },
-    {
-        "cod": "REQ-A320-10",
-        "type": "course",
-        "name": "GENERAL FAMILIARIZATION - A320 FAMILY (ALL ENG)"
-    },
-    {
-        "cod": "REQ-A320-22",
-        "type": "course",
-        "name": "RAMP AND TRANSIT - A320 FAMILY ( IAE V2500 / CFM56 / PW1100G)"
-    },
-    {
-        "cod": "REQ-A320-32",
-        "type": "course",
-        "name": "LINE AND BASE-A320 FAMILY - (IAE V2500 / CFM56 / PW1100G)"
-    },
-    {
-        "cod": "REQ-A320-35",
-        "type": "course",
-        "name": "A320 FAMILY (ALL ENG) - RECURRENT TRAINING"
-    },
-    {
-        "cod": "REQ-A320-37",
-        "type": "course",
-        "name": "AIRCRAFT LINE AND BASE-A319/A320/A321 - PRATICAL TRAINING"
-    },
-    {
-        "cod": "REQ-A330-10",
-        "type": "course",
-        "name": "AIRCRAFT GENERAL FAMILIARIZATION - A330 (ALL ENG)"
-    },
-    {
-        "cod": "REQ-A330-23",
-        "type": "course",
-        "name": "RAMP AND TRANSIT - A330 (ALL ENG-PW4000 & CF6-80)"
-    },
-    {
-        "cod": "REQ-A330-34",
-        "type": "course",
-        "name": "LINE AND BASE A330 (ALL ENG-PW4000 & CF6-80)"
-    },
-    {
-        "cod": "REQ-A330-35",
-        "type": "course",
-        "name": "A330 (ALL ENG - PW4000 & CF6-80) RECURRENT TRAINING"
-    },
-    {
-        "cod": "REQ-A330-36",
-        "type": "course",
-        "name": "AIRCRAFT LINE AND BASE-A330 - PRATICAL TRAINING"
-    },
-    {
-        "cod": "REQ-ATR-20",
-        "type": "course",
-        "name": "AIRCRAFT RAMP AND TRANSIT – ATR-72-200-210-500 (ENGINES-PW 124/127)"
-    },
-    {
-        "cod": "REQ-ATR-30",
-        "type": "course",
-        "name": "LINE AND BASE ATR 42-300/320 (PW 120/121)"
-    },
-    {
-        "cod": "REQ-ATR-31",
-        "type": "course",
-        "name": "LINE AND BASE - ATR 72-200/210/212"
-    },
-    {
-        "cod": "REQ-ATR-32",
-        "type": "course",
-        "name": "RAMP AND TRANSIT - ATR 72-200/210/212"
-    },
-    {
-        "cod": "REQ-ATR-33",
-        "type": "course",
-        "name": "RAMP AND TRANSIT - ATR 42-300/320 (PW120/121)"
-    },
-    {
-        "cod": "REQ-ATR-35",
-        "type": "course",
-        "name": "AIRCRAFT ATR-42-300/320 - REFRESHMENT WITH PW 120/121 ENGINES"
-    },
-    {
-        "cod": "REQ-ATR-45",
-        "type": "course",
-        "name": "AIRCRAFT ATR-72-200/210/500 - REFRESHMENT WITH PW 124/127 ENGINES"
-    },
-    {
-        "cod": "REQ-B767-20",
-        "type": "course",
-        "name": "RAMP AND TRANSIT B767-300ER/300F - (WITH GE-CF6-80C2-B6F ENGINES)"
-    },
-    {
-        "cod": "REQ-B767-30",
-        "type": "course",
-        "name": "LINE AND BASE - B767-200/300ER"
-    },
-    {
-        "cod": "REQ-B767-45",
-        "type": "course",
-        "name": "AIRCRAFT B767-300E - REFRESHMENT"
-    },
-    {
-        "cod": "REQ-CMT-01",
-        "type": "course",
-        "name": "COMPOSITE MATERIAL COMPONENTS REPAIR"
-    },
-    {
-        "cod": "REQ-ELE-01",
-        "type": "course",
-        "name": "ELETRICAL ACCESSORIES COMPONENTS"
-    },
-    {
-        "cod": "REQ-ELO-01",
-        "type": "course",
-        "name": "ELECTRONIC COMPONENTS"
-    },
-    {
-        "cod": "REQ-EMB-20",
-        "type": "course",
-        "name": "AIRCRAFT RAMP AND TRANSIT EMBRAER ERJ 170/190 WITH GE CF34"
-    },
-    {
-        "cod": "REQ-EMB-30",
-        "type": "course",
-        "name": "LINE AND BASE-ERJ 170/190 GE CF34-08/10"
-    },
-    {
-        "cod": "REQ-EMB-35",
-        "type": "course",
-        "name": "AIRCRAFT EMBRAER 170/175/190/195 REFRESHMENT WITH CF 34-08-10"
-    },
-    {
-        "cod": "REQ-EMB-36",
-        "type": "course",
-        "name": "AIRCRAFT LINE AND BASE - EMB 170/190 - PRATICAL TRAINING"
-    },
-    {
-        "cod": "REQ-EME-01",
-        "type": "course",
-        "name": "EMERGENCY EQUIPMENT COMPONENTS"
-    },
-    {
-        "cod": "REQ-GEN-10",
-        "type": "course",
-        "name": "MAINTENANCE HUMAN FACTORS"
-    },
-    {
-        "cod": "REQ-GEN-15",
-        "type": "course",
-        "name": "MAINTENANCE HUMAN FACTORS - RECURRENT TRAINING"
-    },
-    {
-        "cod": "REQ-GEN-20",
-        "type": "course",
-        "name": "AERONAUTIC REGULATIONS AND INTERNAL PROCEDURES"
-    },
-    {
-        "cod": "REQ-GEN-23",
-        "type": "course",
-        "name": "EASA REGULATIONS"
-    },
-    {
-        "cod": "REQ-GEN-24",
-        "type": "course",
-        "name": "EASA AVIATION LEGISLATION"
-    },
-    {
-        "cod": "REQ-GEN-25",
-        "type": "course",
-        "name": "AERONAUTIC REGULATIONS AND INTERNAL PROCEDURES - RECURRENT TRAINING"
-    },
-    {
-        "cod": "REQ-GEN-26",
-        "type": "course",
-        "name": "RS/QCM FAMILIARIZATION"
-    },
-    {
-        "cod": "REQ-GEN-27",
-        "type": "course",
-        "name": "TAM REPAIR STATION/QUALITY CONTROL MANUAL - POLICIES & PROCEDURES"
-    },
-    {
-        "cod": "REQ-GEN-28",
-        "type": "course",
-        "name": "FAA REGULATIONS GENERAL FAMILIARIZATION - PART 145 & PART 43"
-    },
-    {
-        "cod": "REQ-GEN-29",
-        "type": "course",
-        "name": "EASA AVIATION LEGISLATION FOR MANAGERS"
-    },
-    {
-        "cod": "REQ-GEN-30",
-        "type": "course",
-        "name": "FUEL TANK SAFETY LEVEL II"
-    },
-    {
-        "cod": "REQ-GEN-31",
-        "type": "course",
-        "name": "FUEL TANK SAFETY LEVEL I"
-    },
-    {
-        "cod": "REQ-GEN-32",
-        "type": "course",
-        "name": "FAA REGULATIONS"
-    },
-    {
-        "cod": "REQ-GEN-34",
-        "type": "course",
-        "name": "SUSPECTED UNAPPROVED PART - BASIC"
-    },
-    {
-        "cod": "REQ-GEN-35",
-        "type": "course",
-        "name": "FUEL TANK SAFETY LEVEL II - RECURRENT TRAINING"
-    },
-    {
-        "cod": "REQ-GEN-36",
-        "type": "course",
-        "name": "HAZARDOUS MATERIAL - BASIC"
-    },
-    {
-        "cod": "REQ-GEN-37",
-        "type": "course",
-        "name": "TAM RS/QCM - RECURRENT TRAINING"
-    },
-    {
-        "cod": "REQ-GEN-38",
-        "type": "course",
-        "name": "AERONAUTIC REGULATIONS AND MANUALS PROCEDURES - RECURRENT TRAINING"
-    },
-    {
-        "cod": "REQ-GEN-40",
-        "type": "course",
-        "name": "RECEIVING INSPECTION"
-    },
-    {
-        "cod": "REQ-GEN-41",
-        "type": "course",
-        "name": "AIRCRAFT MATERIALS INCOMING AND RECEIVING INSPECTION-RECURRENT TRAINING"
-    },
-    {
-        "cod": "REQ-GEN-42",
-        "type": "course",
-        "name": "AIRCRAFT MATERIALS INCOMING INSPECTION"
-    },
-    {
-        "cod": "REQ-GEN-44",
-        "type": "course",
-        "name": "INCOMING INSPECTION - BASIC"
-    },
-    {
-        "cod": "REQ-GEN-46",
-        "type": "course",
-        "name": "INSPECTION TECHNIQUES"
-    },
-    {
-        "cod": "REQ-GEN-49",
-        "type": "course",
-        "name": "WHEELS AND BRAKES WORKSHOP TECHNOLOGICAL REFRESHMENT"
-    },
-    {
-        "cod": "REQ-GEN-50",
-        "type": "course",
-        "name": "ELETRONICS COMPONENTS WORKSHOP TECHNOLOGICAL REFRESHMENT"
-    },
-    {
-        "cod": "REQ-GEN-51",
-        "type": "course",
-        "name": "ELETRIC COMPONENTS WORKSHOP TECHNOLOGICAL REFRESHMENT"
-    },
-    {
-        "cod": "REQ-GEN-52",
-        "type": "course",
-        "name": "SEAT WORKSHOP TECHNOLOGICAL REFRESHMENT"
-    },
-    {
-        "cod": "REQ-GEN-53",
-        "type": "course",
-        "name": "STRUCTURES WORKSHOP TECHNOLOGICAL REFRESHMENT"
-    },
-    {
-        "cod": "REQ-GEN-54",
-        "type": "course",
-        "name": "HYDRAULICS WORKSHOP TECHNOLOGICAL REFRESHMENT"
-    },
-    {
-        "cod": "REQ-GEN-55",
-        "type": "course",
-        "name": "PNEUMATICS WORSHOP TECHNOLOGICAL REFRESHMENT"
-    },
-    {
-        "cod": "REQ-GEN-56",
-        "type": "course",
-        "name": "EMERGENCY EQUIPAMENT WORKSHOP TECHNOLOGICAL REFRESHMENT"
-    },
-    {
-        "cod": "REQ-GEN-57",
-        "type": "course",
-        "name": "LANDING GEAR WORKSHOP TECHNOLOGICAL REFRESHMENT"
-    },
-    {
-        "cod": "REQ-GEN-58",
-        "type": "course",
-        "name": "MACHINERY WORKSHOP TECHNOLOGICAL REFRESHMENT"
-    },
-    {
-        "cod": "REQ-GEN-59",
-        "type": "course",
-        "name": "PAINTING WORKSHOP TECHNOLOGICAL REFRESHMENT"
-    },
-    {
-        "cod": "REQ-GEN-60",
-        "type": "course",
-        "name": "TAPESTRY WORKSHOP TECHNOLOGICAL REFRESHMENT"
-    },
-    {
-        "cod": "REQ-GEN-61",
-        "type": "course",
-        "name": "DECORATIVE LAMINATES WORKSHOP TECHNOLOGICAL REFRESHMENT"
-    },
-    {
-        "cod": "REQ-GEN-62",
-        "type": "course",
-        "name": "COMPOSITE MATERIAL WORKSHOP TECHNOLOGICAL REFRESHMENT"
-    },
-    {
-        "cod": "REQ-GEN-63",
-        "type": "course",
-        "name": "ELECTROPLATING WORKSHOP TECHNOLOGICAL REFRESHMENT"
-    },
-    {
-        "cod": "REQ-GEN-64",
-        "type": "course",
-        "name": "THERMOPLASTIC WORKSHOP TECHNOLOGICAL REFRESHMENT"
-    },
-    {
-        "cod": "REQ-GEN-65",
-        "type": "course",
-        "name": "NDT WORKSHOP TECHNOLOGICAL REFRESHMENT"
-    },
-    {
-        "cod": "REQ-GEN-66",
-        "type": "course",
-        "name": "SUSPECTED UNAPPROVED PARTS - FAA ACADEMY"
-    },
-    {
-        "cod": "REQ-GEN-67",
-        "type": "course",
-        "name": "CERTIFICATION AND SURVEILLANCE OF PART 145 STATION-FAA ACADEMY"
-    },
-    {
-        "cod": "REQ-GEN-70",
-        "type": "course",
-        "name": "LIQUID PENETRANT - LEVEL I"
-    },
-    {
-        "cod": "REQ-GEN-71",
-        "type": "course",
-        "name": "LIQUID PENETRANT - LEVEL II"
-    },
-    {
-        "cod": "REQ-GEN-72",
-        "type": "course",
-        "name": "NR33 – CONFINED SPACE - INITIAL"
-    },
-    {
-        "cod": "REQ-GEN-73",
-        "type": "course",
-        "name": "MAGNETIC PARTICLE - LEVEL I"
-    },
-    {
-        "cod": "REQ-GEN-74",
-        "type": "course",
-        "name": "MAGNETIC PARTICLE - LEVEL II"
-    },
-    {
-        "cod": "REQ-GEN-75",
-        "type": "course",
-        "name": "NR33 ESPAÇO CONFINADO - RECICLAGEM"
-    },
-    {
-        "cod": "REQ-GEN-76",
-        "type": "course",
-        "name": "EDDY CURRENT - LEVEL I"
-    },
-    {
-        "cod": "REQ-GEN-77",
-        "type": "course",
-        "name": "EDDY CURRENT - LEVEL II"
-    },
-    {
-        "cod": "REQ-GEN-79",
-        "type": "course",
-        "name": "ULTRASONIC - LEVEL I"
-    },
-    {
-        "cod": "REQ-GEN-80",
-        "type": "course",
-        "name": "ULTRASONIC - LEVEL II"
-    },
-    {
-        "cod": "REQ-GEN-85",
-        "type": "course",
-        "name": "FAA REGULATIONS - BASIC"
-    },
-    {
-        "cod": "REQ-GEN-110",
-        "type": "course",
-        "name": "QUALITY AUDITOR COURSE"
-    },
-    {
-        "cod": "REQ-GEN-111",
-        "type": "course",
-        "name": "QUALITY MANAGEMENT SYSTEM (ISO 9001) COURSE"
-    },
-    {
-        "cod": "REQ-GEN-120",
-        "type": "course",
-        "name": "INTRODUCTION TO SAFETY AND ENVIRONMENT - INITIAL AND RECURRENT TRAINING"
-    },
-    {
-        "cod": "REQ-GEN-121",
-        "type": "course",
-        "name": "TRAINING PACKAGE SHE 02"
-    },
-    {
-        "cod": "REQ-GEN-122",
-        "type": "course",
-        "name": "TRAINING PACKAGE SHE 03"
-    },
-    {
-        "cod": "REQ-GEN-123",
-        "type": "course",
-        "name": "TRAINING PACKAGE SHE 04"
-    },
-    {
-        "cod": "REQ-GEN-124",
-        "type": "course",
-        "name": "TRAINING PACKAGE SHE 05"
-    },
-    {
-        "cod": "REQ-GEN-125",
-        "type": "course",
-        "name": "WASTEWATER TREATMENT MRO"
-    },
-    {
-        "cod": "REQ-GEN-126",
-        "type": "course",
-        "name": "MANAGEMENT OF GREEN AREAS"
-    },
-    {
-        "cod": "REQ-GEN-127",
-        "type": "course",
-        "name": "SHE QUALIFICATION OF SUPPLIERS TAM MRO"
-    },
-    {
-        "cod": "REQ-GEN-128",
-        "type": "course",
-        "name": "INTERNAL ENVIRONMENTAL AUDITOR (ISO 14001)"
-    },
-    {
-        "cod": "REQ-GEN-140",
-        "type": "course",
-        "name": "ELECTRICAL WIRING INTERCONNECTION SYSTEMS - EWIS"
-    },
-    {
-        "cod": "REQ-GEN-141",
-        "type": "course",
-        "name": "INTRODUCTION TO ELECTRICAL WIRING INTERCONNECTION SYSTEMS - EWIS"
-    },
-    {
-        "cod": "REQ-GEN-142",
-        "type": "course",
-        "name": "ELECTRICAL WIRING INTERCONNECTION SYSTEMS - EWIS - RECURRENT COURSE"
-    },
-    {
-        "cod": "REQ-GEN-143",
-        "type": "course",
-        "name": "INTRODUCTION TO ELECTRICAL WIRING INTERCONNECTION SYSTEMS-EWIS RECURRENT TRAINING"
-    },
-    {
-        "cod": "REQ-GEN-144",
-        "type": "course",
-        "name": "REFUELING AND DEFUELING PRACTICAL PROCEDURES"
-    },
-    {
-        "cod": "REQ-GEN-145",
-        "type": "course",
-        "name": "INTRODUCTION OF THE ENVIRONMENT - INTEGRATION AND REFRESHER"
-    },
-    {
-        "cod": "REQ-GEN-146",
-        "type": "course",
-        "name": "INTRODUCTION OF THE SAFETY WORK - INTEGRATION AND REFRESHER"
-    },
-    {
-        "cod": "REQ-GEN-151",
-        "type": "course",
-        "name": "FUEL TANK WORKS - TECHNICAL TRAINING"
-    },
-    {
-        "cod": "REQ-GEN-152",
-        "type": "course",
-        "name": "EMERGENCY BRIGADE"
-    },
-    {
-        "cod": "REQ-GEN-153",
-        "type": "course",
-        "name": "TAM MERCOSUR"
-    },
-    {
-        "cod": "REQ-GEN-154",
-        "type": "course",
-        "name": "HAZMAT BASED ON CFR TITLE 49 SUBTITLE 172.704 AND HYDROSTATIC TEST FOR HIGH PRESSURE CYLINDERS"
-    },
-    {
-        "cod": "REQ-GEN-155",
-        "type": "course",
-        "name": "NR35 – WORK AT HEIGHT"
-    },
-    {
-        "cod": "REQ-GEN-156",
-        "type": "course",
-        "name": "ACCIDENT PREVENTION INTERNAL COMMITTEE"
-    },
-    {
-        "cod": "REQ-GEN-157",
-        "type": "course",
-        "name": "NR35 - TRABALHO EM ALTURA - RECICLAGEM"
-    },
-    {
-        "cod": "REQ-GEN-158",
-        "type": "course",
-        "name": "INSPECTION CONCEPTS"
-    },
-    {
-        "cod": "REQ-GEN-159",
-        "type": "course",
-        "name": "ABANDONMENT LEADER OF AREA"
-    },
-    {
-        "cod": "REQ-HYD-01",
-        "type": "course",
-        "name": "HYDRAULIC COMPONENTS"
-    },
-    {
-        "cod": "REQ-IDG-01",
-        "type": "course",
-        "name": "INTEGRATED DRIVEN GENERATOR COMPONENTS"
-    },
-    {
-        "cod": "REQ-LGE-01",
-        "type": "course",
-        "name": "NOSE LANDING AND GEAR COMPONENT SHOP"
-    },
-    {
-        "cod": "REQ-LGE-02",
-        "type": "course",
-        "name": "MAIN LANDING GEAR COMPONENT SHOP"
-    },
-    {
-        "cod": "REQ-MIS-01",
-        "type": "course",
-        "name": "MISCELLANEOUS COMPONENTS"
-    },
-    {
-        "cod": "REQ-PNE-01",
-        "type": "course",
-        "name": "PNEUMATICS COMPONENTS"
-    },
-    {
-        "cod": "REQ-SEA-01",
-        "type": "course",
-        "name": "SEATS COMPONENTS"
-    },
-    {
-        "cod": "REQ-STR-01",
-        "type": "course",
-        "name": "STRUCTURES COMPONENTS"
-    },
-    {
-        "cod": "REQ-TAM-02",
-        "type": "course",
-        "name": "ETOPS - MAINTENANCE CONCEPTS"
-    },
-    {
-        "cod": "REQ-TAM-04",
-        "type": "course",
-        "name": "TAM LINHAS AÉREAS MGM AND PROCEDURES - REFRESHMENT"
-    },
-    {
-        "cod": "REQ-TAM-06",
-        "type": "course",
-        "name": "ETOPS - MAINTENANCE CONCEPTS - RECURRENT"
-    },
-    {
-        "cod": "REQ-TAM-07",
-        "type": "course",
-        "name": "TAM AIRLINE REQUIRED INSPECTIONS ITEMS (IIO)"
-    },
-    {
-        "cod": "REQ-TPL-01",
-        "type": "course",
-        "name": "THERMOPLASTIC COMPONENTS"
-    },
-    {
-        "cod": "REQ-TPT-01",
-        "type": "course",
-        "name": "TAPESTRY COMPONENTS"
-    },
-    {
-        "cod": "REQ-UNI-01",
-        "type": "course",
-        "name": "MCM-GMM-MGM LATAM GROUP OPERATORS"
-    },
-    {
-        "cod": "REQ-UNI-02",
-        "type": "course",
-        "name": "RVSM/ PBN – LATAM GROUP OPERATORS"
-    },
-    {
-        "cod": "REQ-UNI-03",
-        "type": "course",
-        "name": "ILS CAT II/ III – LATAM GROUP OPERATORS"
-    },
-    {
-        "cod": "REQ-UNI-04",
-        "type": "course",
-        "name": "MCM-GMM-MGM LATAM GROUP OPERATORS REFRESHMENT"
-    },
-    {
-        "cod": "REQ-UNI-05",
-        "type": "course",
-        "name": "RVSM/ PBN – LATAM GROUP OPERATORS REFRESHMENT"
-    },
-    {
-        "cod": "REQ-UNI-06",
-        "type": "course",
-        "name": "ILS CAT II/ III – LATAM GROUP OPERATORS REFRESHMENT"
-    },
-    {
-        "cod": "REQ-WHB-01",
-        "type": "course",
-        "name": "WHEELS AND BRAKES COMPONENTS"
-    },
-    {
-        "cod": "SUP-A320-00",
-        "type": "course",
-        "name": "ENGINE RUN UP IAE V2500 A1-A5"
-    },
-    {
-        "cod": "REQ-GEN-160",
-        "type": "course",
-        "name": "MARSHALLING"
-    },
-    {
-        "cod": "SUP-A320-01",
-        "type": "course",
-        "name": "ENGINE RUN UP CFMI56-5B"
-    },
-    {
-        "cod": "SUP-A320-02",
-        "type": "course",
-        "name": "AIRCRAFT ENGINE RUN-UP AND TAXI – A319/A320/A321 WITH IAE V2500A1-A5 AND CFM56-5B"
-    },
-    {
-        "cod": "SUP-A320-35",
-        "type": "course",
-        "name": "ENGINE RUN UP - RECURRENT COURSE"
-    },
-    {
-        "cod": "SUP-A330-00",
-        "type": "course",
-        "name": "ENGINE RUN-UP - PW4168"
-    },
-    {
-        "cod": "SUP-A330-02",
-        "type": "course",
-        "name": "ENGINE RUN UP - CF6-80E1-A3"
-    },
-    {
-        "cod": "SUP-A330-35",
-        "type": "course",
-        "name": "ENGINE RUN UP - RECURRENT COURSE"
-    },
-    {
-        "cod": "SUP-B767-35",
-        "type": "course",
-        "name": "ENGINE RUN UP - RECURRENT COURSE"
-    },
-    {
-        "cod": "SUP-GEN-01",
-        "type": "course",
-        "name": "CRITICAL SYSTEM INSPECTION"
-    },
-    {
-        "cod": "SUP-GEN-04",
-        "type": "course",
-        "name": "ENGINE LINE & BASE MAINTENANCE - RR-TAY-650-15"
-    },
-    {
-        "cod": "SUP-GEN-05",
-        "type": "course",
-        "name": "ENGINE LINE & BASE MAINTENANCE-IAE V2500 SERIES"
-    },
-    {
-        "cod": "SUP-GEN-06",
-        "type": "course",
-        "name": "ENGINE LINE & MAINTENANCE - PW4168A"
-    },
-    {
-        "cod": "SUP-GEN-07",
-        "type": "course",
-        "name": "ENGINE LINE & MAINTENANCE - CF6-80E1A3"
-    },
-    {
-        "cod": "SUP-GEN-08",
-        "type": "course",
-        "name": "ENGINE LINE & MAINTENANCE - CFM 56-5B SERIES"
-    },
-    {
-        "cod": "SUP-GEN-10",
-        "type": "course",
-        "name": "ENGINE LINE & BASE MAINTENANCE - PW6000"
-    },
-    {
-        "cod": "SUP-GEN-12",
-        "type": "course",
-        "name": "EOS/ESD ELECTROSTATIC DISCHARGE"
-    },
-    {
-        "cod": "SUP-GEN-13",
-        "type": "course",
-        "name": "EOS/ESD ELECTROSTATIC DISCHARGE - RECURRENT TRAINING"
-    },
-    {
-        "cod": "SUP-GEN-14",
-        "type": "course",
-        "name": "DANGEROUS GOODS"
-    },
-    {
-        "cod": "SUP-GEN-15",
-        "type": "course",
-        "name": "DANGEROUS GOODS - RECURRENT COURSE"
-    },
-    {
-        "cod": "SUP-GEN-16",
-        "type": "course",
-        "name": "TEMPER ETCHING INSPECTION OF LOW ALLOY STEEL AIRCRAFT PARTS"
-    },
-    {
-        "cod": "SUP-GEN-19",
-        "type": "course",
-        "name": "BOROSCOPE INSPECTION - RR-TAY650-15"
-    },
-    {
-        "cod": "SUP-GEN-20",
-        "type": "course",
-        "name": "BOROSCOPE INSPECTION - IAE V2500 SERIES"
-    },
-    {
-        "cod": "SUP-GEN-21",
-        "type": "course",
-        "name": "BOROSCOPE INSPECTION - PW4168A"
-    },
-    {
-        "cod": "SUP-GEN-22",
-        "type": "course",
-        "name": "BOROSCOPE INSPECTION - CF6-80E1A3"
-    },
-    {
-        "cod": "SUP-GEN-23",
-        "type": "course",
-        "name": "BOROSCOPE INSPECTION - CFM56-5B SERIES"
-    },
-    {
-        "cod": "SUP-GEN-24",
-        "type": "course",
-        "name": "BOROSCOPE INSPECTION - CF6-80C"
-    },
-    {
-        "cod": "SUP-GEN-32",
-        "type": "course",
-        "name": "BOROSCOPE INSPECTION - PW6000"
-    },
-    {
-        "cod": "SUP-GEN-34",
-        "type": "course",
-        "name": "BOROSCOPE INSPECTION - PW120/121"
-    },
-    {
-        "cod": "SUP-GEN-38",
-        "type": "course",
-        "name": "BOROSCOPE INSPECTION CONCEPTS - IAE V2500 SERIES"
-    },
-    {
-        "cod": "SUP-GEN-39",
-        "type": "course",
-        "name": "BOROSCOPE INSPECTION CONCEPTS – CFM56-5B"
-    },
-    {
-        "cod": "SUP-GEN-41",
-        "type": "course",
-        "name": "ENGINE LINE & BASE MAINTENANCE - IAE V2500 SERIES-THEORICAL"
-    },
-    {
-        "cod": "SUP-GEN-42",
-        "type": "course",
-        "name": "ENGINE LINE & BASE MAINTENANCE - CFM 56-5B-THEORICAL"
-    },
-    {
-        "cod": "SUP-GEN-80",
-        "type": "course",
-        "name": "INTERNAL CUSTOMER SERVICE"
-    },
-    {
-        "cod": "SUP-GEN-100",
-        "type": "course",
-        "name": "DAY-TO-DAY AIRCRAFT STRUCTURES COURSE AND FUNDAMENTAL PRACTICES"
-    },
-    {
-        "cod": "SUP-GEN-101",
-        "type": "course",
-        "name": "STRUCTURE REPAIR MANUAL TRAINING - COMPOSITES"
-    },
-    {
-        "cod": "SUP-GEN-102",
-        "type": "course",
-        "name": "STRUCTURE REPAIR MANUAL TRAINING - METALLIC"
-    },
-    {
-        "cod": "SUP-GEN-104",
-        "type": "course",
-        "name": "TAM MRO FAMILIARIZATION COURSE"
-    },
-    {
-        "cod": "SUP-GEN-105",
-        "type": "course",
-        "name": "GENERAL INTRODUCTION OF MANUALS COURSE"
-    },
-    {
-        "cod": "SUP-GEN-106",
-        "type": "course",
-        "name": "AIRBUS A320 FAMILY PRESENTATION COURSE"
-    },
-    {
-        "cod": "SUP-GEN-108",
-        "type": "course",
-        "name": "COMMISSION INTERNAL ACCIDENT PREVENTION"
-    },
-    {
-        "cod": "SUP-GEN-110",
-        "type": "course",
-        "name": "COLD WEATHER OPERATIONS"
-    },
-    {
-        "cod": "SUP-GEN-112",
-        "type": "course",
-        "name": "A320 PASSENGER DOOR ESCAPE SLIDE REMOVAL AND INSTALLATION"
-    },
-    {
-        "cod": "SUP-GEN-113",
-        "type": "course",
-        "name": "ENVIRONMENTAL ASPECTS AND IMPACTS"
-    },
-    {
-        "cod": "SUP-GEN-114",
-        "type": "course",
-        "name": "FORMATION OF ENVIRONMENTAL MULTIPLIER"
-    },
-    {
-        "cod": "SUP-GEN-115",
-        "type": "course",
-        "name": "AIRCRAFT MATERIALS INCOMING INSPECTION REGULATION EASA COMPLEMENT"
-    },
-    {
-        "cod": "SUP-GEN-116",
-        "type": "course",
-        "name": "CUTTING AND HANDLING OF METALLIC MATERIALS AND STANDARD PRACTICES"
-    },
-    {
-        "cod": "SUP-GEN-117",
-        "type": "course",
-        "name": "ELETRONICS – STANDARD PRACTICES"
-    },
-    {
-        "cod": "SUP-GEN-118",
-        "type": "course",
-        "name": "DAY-TO-DAY AIRCRAFT STRUCTURES COURSE AND FUNDAMENTALPRACTICES - LEVEL IIPRACTICES-LEVEL II"
-    },
-    {
-        "cod": "SUP-GEN-119",
-        "type": "course",
-        "name": "A330 PASSENGER DOOR ESCAPE SLIDE REMOVAL, INSTALLATION AND CONSERVATION PROCEDURES"
-    },
-    {
-        "cod": "SUP-GEN-121",
-        "type": "course",
-        "name": "STANDARD PRACTICES – AVIONICS"
-    },
-    {
-        "cod": "SUP-GEN-122",
-        "type": "course",
-        "name": "PROFESSIONAL IMPROVEMENT PROGRAM - PIP"
-    },
-    {
-        "cod": "SUP-GEN-123",
-        "type": "course",
-        "name": "PERFIL WAREHOUSEMAN EXTERNO"
-    },
-    {
-        "cod": "SUP-GEN-124",
-        "type": "course",
-        "name": "TOOLBOX APPLICATION COURSE"
-    },
-    {
-        "cod": "SUP-GEN-125",
-        "type": "course",
-        "name": "LATAM CULTURE"
-    },
-    {
-        "cod": "SUP-GEN-126",
-        "type": "course",
-        "name": "FIELD TRIP"
-    },
-    {
-        "cod": "SUP-GEN-127",
-        "type": "course",
-        "name": "FLAPPER PEENING TRAINING - THEORY AND PRACTICES"
-    },
-    {
-        "cod": "DIF-A320-03",
-        "type": "course",
-        "name": "INTRA FAMILY – IAE V2500 OR CFM-56 TO A319/320/321 PW 1100G POWER PLANT DIFFERENCES NEO"
-    },
-    {
-        "cod": "SUP-GEN-128",
-        "type": "course",
-        "name": "METROLOGY"
-    },
-    {
-        "cod": "SUP-GEN-130",
-        "type": "course",
-        "name": "AIRCRAFT STRUCTURES - FUNDAMENTAL PRACTICES"
-    },
-    {
-        "cod": "SUP-GEN-129",
-        "type": "course",
-        "name": "FAMILIARIZATION WITH THE MACHINERY OF STRUCTURES EQUIPMENT ROOM – WORKPLACE SAFETY CONCEPTS"
-    },
-    {
-        "cod": "SUP-GEN-131",
-        "type": "course",
-        "name": "DESPICABLE CONDITIONS"
-    },
-    {
-        "cod": "MM-SHO-A320",
-        "type": "course",
-        "name": "A320 WORKSHOP - OJT"
-    },
-    {
-        "cod": "MM-SHO-B767",
-        "type": "course",
-        "name": "B767 WORKSHOP - OJT"
-    },
-    {
-        "cod": "SUP-GEN-132",
-        "type": "course",
-        "name": "COMPONENTS EFFECTIVITY ON AIRCRAFT ILLUSTRATED PARTS CATALOGUE"
-    },
-    {
-        "cod": "REQ-A320-25",
-        "type": "course",
-        "name": "A320 FAMILY (IAE V2500/CFM56/PW1100G) - TRANSITION LEVEL COURSE-FROM LEVEL 1 TO LEVEL 2"
-    },
-    {
-        "cod": "MM-HEA-A320",
-        "type": "course",
-        "name": "A320 NACELLES"
-    },
-    {
-
-        "cod": "SUP-B767-03",
-        "type": "course",
-        "name": "ENGINE GE CF6-80C2-B6F – LINE MAINTENANCE"
-    },
-    {
-        "cod": "REQ-A320-33",
-        "type": "course",
-        "name": "A320 FAMILY (IAE V2500/CFM56/PW1100G) - TRANSITION LEVEL COURSE-FROM LEVEL 2 TO LEVEL 3"
-    },
-    {
-        "cod": "REQ-GEN-161",
-        "type": "course",
-        "name": "NR35 + PTA"
-    },
-    {
-        "cod": "REQ-GEN-162",
-        "type": "course",
-        "name": "NR23 - BRIGADA DE INCÊNDIO BÁSICO"
-    },
-    {
-        "cod": "MM-PKG-A320",
-        "type": "course",
-        "name": "A320 - OJT Preservation"
-    },
-    {
-        "cod": "MM-PKG-B767",
-        "type": "course",
-        "name": "B767 - OJT Preservation"
-    },
-    {
-        "cod": "DIF-GEN-01",
-        "type": "course",
-        "name": "AERONAUTIC REGULATIONS & PROCEDURES DIFFERENCES COURSE - (DGAC-EQUADOR)"
-    },
-    {
-        "cod": "DIF-GEN-03",
-        "type": "course",
-        "name": "AERONAUTIC REGULATIONS & PROCEDURES DIFFERENCES COURSE - (TCCA-CANADA)"
-    },
-    {
-        "cod": "REQ-A320-20",
-        "type": "course",
-        "name": "AIRCRAFT RAMP AND TRANSIT - A319/A320 WITH IAE V2500 A1-A5"
-    },
-    {
-        "cod": "REQ-A320-21",
-        "type": "course",
-        "name": "AIRCRAFT RAMP AND TRANSIT - A319/A320 WITH V2500 A1-A5 AND CFMI56-5B"
-    },
-    {
-        "cod": "REQ-A330-20",
-        "type": "course",
-        "name": "AIRCRAFT RAMP - LINE MAINTENANCE DA AERONAVE A330/200"
-    },
-    {
-        "cod": "REQ-A330-21",
-        "type": "course",
-        "name": "AIRCRAFT RAMP AND TRANSIT - A330 WITH RR-TRENT 700"
-    },
-    {
-        "cod": "REQ-B767-31",
-        "type": "course",
-        "name": "AIRCRAFT LINE AND BASE - B767-200/300 ESTRUTURAS"
-    },
-    {
-        "cod": "REQ-B767-33",
-        "type": "course",
-        "name": "AIRCRAFT LINE AND BASE - B767 - MÓDULO MOTOR (GE CF6-80 C2)"
-    },
-    {
-        "cod": "REQ-B767-32",
-        "type": "course",
-        "name": "AIRCRAFT LINE AND BASE - B767-MÓDULO HCT"
-    },
-    {
-        "cod": "REQ-B767-34",
-        "type": "course",
-        "name": "AIRCRAFT LINE AND BASE - B767-200/300 AVIÔNICA"
-    },
-    {
-        "cod": "REQ-B767-35",
-        "type": "course",
-        "name": "AIRCRAFT LINE AND BASE-B767 - MÓDULO SISTEMAS DIVERSOS"
-    },
-    {
-        "cod": "REQ-B767-36",
-        "type": "course",
-        "name": "AIRCRAFT LINE AND BASE-B767 - MÓDULO ELÉTRICA E LUZES"
-    },
-    {
-        "cod": "REQ-GEN-68",
-        "type": "course",
-        "name": "MISCELLANEOUS WORKSHOP TECHNOLOGICAL - REFRESHMENT"
-    },
-    {
-        "cod": "SUP-A330-01",
-        "type": "course",
-        "name": "AIRCRAFT ENGINE RUN-UP - A330 WITH RR-TRENT 700"
-    },
-    {
-        "cod": "REQ-GEN-69",
-        "type": "course",
-        "name": "SILK SCREEN WORKSHOP TECHNOLOGICAL - REFRESHMENT"
-    },
-    {
-        "cod": "SUP-A330-03",
-        "type": "course",
-        "name": "AIRCRAFT ENGINE RUN-UP - A330 WITH PW4168A AND GE-CF6-80E1-A3"
-    },
-    {
-        "cod": "SUP-B767-00",
-        "type": "course",
-        "name": "AIRCRAFT ENGINE RUN-UP - 767 WITH GE-CF6-80C2-B6F"
-    },
-    {
-        "cod": "CR-GEN-67",
-        "type": "course",
-        "name": "SPECIAL OPERATIONS"
-    },
-    {
-        "cod": "REQ-B767-10",
-        "type": "course",
-        "name": "AIRCRAFT GENERAL FAMILIARIZATION B767-300ER - WITH GE-CF6-80C2 ENGINES"
-    },
-    {
-        "cod": "DIF-A320-00",
-        "type": "course",
-        "name": "ENGINE DIFFERENCES COURSE - A320 FAMILY WITH IAE V2500 A5 TO CFMI56"
-    },
-    {
-        "cod": "REQ-A350-35",
-        "type": "course",
-        "name": "REFRESHMENT A350"
-    },
-    {
-        "cod": "CR-A320/A321-04",
-        "type": "course",
-        "name": "REFRESHMENT A319/A320/A321"
-    },
-    {
-        "cod": "DIF-B767-01",
-        "type": "course",
-        "name": "AIRCRAFT DIFFERENCE COURSE – B767 PASSENGER TO FREIGHTER"
-    },
-    {
-        "cod": "CR-B777-00",
-        "type": "course",
-        "name": "AIRCRAFT GENERAL FAMILIARIZATION – B777-300ER (WITH GE-90-115B)"
-    },
-    {
-        "cod": "SUP-GEN-134",
-        "type": "course",
-        "name": "NITAL ETCHING"
-    },
-    {
-        "cod": "CR-A350-04",
-        "type": "course",
-        "name": "ENGINE LINE AND BASE RR TRENT XWB"
-    },
-    {
-        "cod": "CR-A320-05",
-        "type": "course",
-        "name": "A320 IAE V2500 TO CFMI56-5B - ENGINE DIFFERENCES COURSE"
-    },
-    {
-        "cod": "CS-B777-01",
-        "type": "course",
-        "name": "AUXILIAR POWER UNIT – GARRET GTPC 331 500 / B777-300"
-    },
-    {
-        "cod": "CR-GEN-78",
-        "type": "course",
-        "name": "TROUBLESHOOTING PHILOSOPHY"
-    },
-    {
-        "cod": "SUP-GEN-135",
-        "type": "course",
-        "name": "DAY-TO-DAY AIRCRAFT STRUCTURES COURSE AND FUNDAMENTAL PRACTICES - LEVEL II PRACTICES-LOPA"
-    },
-    {
-        "cod": "REQ-GEN-163",
-        "type": "course",
-        "name": "DELEGATE INSPECTOR"
-    },
-    {
-        "cod": "REQ-B767-37",
-        "type": "course",
-        "name": "B767-300ER/300F (WITH GE-CF6-80C2-B6F ENGINES) TRANSITION LEVEL COURSE - FROM LEVEL 2 TO LEVEL 3"
-    },
-    {
-        "cod": "SUP-GEN-40",
-        "type": "course",
-        "name": "TRAIN THE TRAINER"
-    }
+	{
+		"cod": "0",
+		"type": "coach",
+		"name": "INSTRUTOR EXTERNO"
+	},
+	{
+		"cod": "1",
+		"type": "coach",
+		"name": "FABIANO APARECIDO URBANO"
+	},
+	{
+		"cod": "2",
+		"type": "coach",
+		"name": "HEBER LUIZ ZUNARELLI MARTINS"
+	},
+	{
+		"cod": "3",
+		"type": "coach",
+		"name": "MARLON ROGERIO LEDESMA"
+	},
+	{
+		"cod": "4",
+		"type": "coach",
+		"name": "RAFAEL GUILLEN ALVES MURTA"
+	},
+	{
+		"cod": "5",
+		"type": "coach",
+		"name": "VINICIUS SOUZA CUNHA"
+	},
+	{
+		"cod": "6",
+		"type": "coach",
+		"name": "WELLYNGTON MARCONDES"
+	},
+	{
+		"cod": "7",
+		"type": "coach",
+		"name": "WENDEL MACHADO PENIDO"
+	},
+	{
+		"cod": "8",
+		"type": "coach",
+		"name": "WILLIAM RIUKSTEIN"
+	},
+	{
+		"cod": "CR-A320-05",
+		"type": "course",
+		"name": "A320 IAE V2500 TO CFMI56-5B - ENGINE DIFFERENCES COURSE"
+	},
+	{
+		"cod": "CR-A320/A321-04",
+		"type": "course",
+		"name": "REFRESHMENT A319/A320/A321"
+	},
+	{
+		"cod": "CR-A350-04",
+		"type": "course",
+		"name": "ENGINE LINE AND BASE RR TRENT XWB"
+	},
+	{
+		"cod": "CR-B777-00",
+		"type": "course",
+		"name": "AIRCRAFT GENERAL FAMILIARIZATION – B777-300ER (WITH GE-90-115B)"
+	},
+	{
+		"cod": "CR-GEN-67",
+		"type": "course",
+		"name": "SPECIAL OPERATIONS"
+	},
+	{
+		"cod": "CR-GEN-78",
+		"type": "course",
+		"name": "TROUBLESHOOTING PHILOSOPHY"
+	},
+	{
+		"cod": "CS-B777-01",
+		"type": "course",
+		"name": "AUXILIAR POWER UNIT – GARRET GTPC 331 500 / B777-300"
+	},
+	{
+		"cod": "DIF-A320-00",
+		"type": "course",
+		"name": "ENGINE DIFFERENCES COURSE - A320 FAMILY WITH IAE V2500 A5 TO CFMI56"
+	},
+	{
+		"cod": "DIF-A320-01",
+		"type": "course",
+		"name": "AIRCRAFT DIFFERENCE COURSE - A319/A320 TO A321 WITH IAE V2500 A5"
+	},
+	{
+		"cod": "DIF-A320-02",
+		"type": "course",
+		"name": "AIRCRAFT DIFFERENCE COURSE – A319/A320 TO A318"
+	},
+	{
+		"cod": "DIF-A320-03",
+		"type": "course",
+		"name": "INTRA FAMILY – IAE V2500 OR CFM-56 TO A319/320/321 PW 1100G POWER PLANT DIFFERENCES NEO"
+	},
+	{
+		"cod": "DIF-ATR-00",
+		"type": "course",
+		"name": "AIRCRAFT DIFFERENCE COURSE ATR-72-210/500 TO 600"
+	},
+	{
+		"cod": "DIF-B767-01",
+		"type": "course",
+		"name": "AIRCRAFT DIFFERENCE COURSE – B767 PASSENGER TO FREIGHTER"
+	},
+	{
+		"cod": "DIF-GEN-01",
+		"type": "course",
+		"name": "AERONAUTIC REGULATIONS & PROCEDURES DIFFERENCES COURSE - (DGAC-EQUADOR)"
+	},
+	{
+		"cod": "DIF-GEN-02",
+		"type": "course",
+		"name": "AERONAUTIC REGULATIONS & PROCEDURES DIFFERENCES COURSE (ANAC-DA -ARGENTINA)"
+	},
+	{
+		"cod": "DIF-GEN-03",
+		"type": "course",
+		"name": "AERONAUTIC REGULATIONS & PROCEDURES DIFFERENCES COURSE - (TCCA-CANADA)"
+	},
+	{
+		"cod": "DIF-GEN-04",
+		"type": "course",
+		"name": "AERONAUTIC REGULATIONS & PROCEDURES DIFFERENCES COURSE (UAEAC -COLOMBIA)"
+	},
+	{
+		"cod": "MM-AFR-A320",
+		"type": "course",
+		"name": "A320 FAMILY - AIRFRAME OJT"
+	},
+	{
+		"cod": "MM-AFR-A330",
+		"type": "course",
+		"name": "A330 - AIRFRAME OJT"
+	},
+	{
+		"cod": "MM-AVI-A320",
+		"type": "course",
+		"name": "A320 FAMILY - AVIONICS OJT"
+	},
+	{
+		"cod": "MM-AVI-A330",
+		"type": "course",
+		"name": "A330 - AVIONICS OJT"
+	},
+	{
+		"cod": "MM-CON-A320",
+		"type": "course",
+		"name": "A320 FAMILY - CONTROLS OJT"
+	},
+	{
+		"cod": "MM-CON-A330",
+		"type": "course",
+		"name": "A330 - CONTROLS OJT"
+	},
+	{
+		"cod": "MM-ENG-A320",
+		"type": "course",
+		"name": "A320 FAMILY - ENGINES OJT"
+	},
+	{
+		"cod": "MM-ENG-A330",
+		"type": "course",
+		"name": "A330 - ENGINES OJT"
+	},
+	{
+		"cod": "MM-HEA-A320",
+		"type": "course",
+		"name": "A320 NACELLES"
+	},
+	{
+		"cod": "MM-HYD-A320",
+		"type": "course",
+		"name": "A320 FAMILY - HYDRAULICS OJT"
+	},
+	{
+		"cod": "MM-HYD-A330",
+		"type": "course",
+		"name": "A330 - HYDRAULICS OJT"
+	},
+	{
+		"cod": "MM-INT-A320",
+		"type": "course",
+		"name": "A320 FAMILY - INTERIORS OJT"
+	},
+	{
+		"cod": "MM-INT-A330",
+		"type": "course",
+		"name": "A330 - INTERIORS OJT"
+	},
+	{
+		"cod": "MM-PKG-A320",
+		"type": "course",
+		"name": "A320 - OJT Preservation"
+	},
+	{
+		"cod": "MM-PKG-B767",
+		"type": "course",
+		"name": "B767 - OJT Preservation"
+	},
+	{
+		"cod": "MM-SHO-A320",
+		"type": "course",
+		"name": "A320 WORKSHOP - OJT"
+	},
+	{
+		"cod": "MM-SHO-B767",
+		"type": "course",
+		"name": "B767 WORKSHOP - OJT"
+	},
+	{
+		"cod": "MM-STR-A320",
+		"type": "course",
+		"name": "A320 FAMILY - STRUCTURES OJT"
+	},
+	{
+		"cod": "MM-STR-A330",
+		"type": "course",
+		"name": "A330 - STRUCTURES OJT"
+	},
+	{
+		"cod": "MY-EME-02",
+		"type": "course",
+		"name": "ESCAPE SLIDE REVISION AND FOLDING"
+	},
+	{
+		"cod": "REQ-A320-10",
+		"type": "course",
+		"name": "GENERAL FAMILIARIZATION - A320 FAMILY (ALL ENG)"
+	},
+	{
+		"cod": "REQ-A320-20",
+		"type": "course",
+		"name": "AIRCRAFT RAMP AND TRANSIT - A319/A320 WITH IAE V2500 A1-A5"
+	},
+	{
+		"cod": "REQ-A320-21",
+		"type": "course",
+		"name": "AIRCRAFT RAMP AND TRANSIT - A319/A320 WITH V2500 A1-A5 AND CFMI56-5B"
+	},
+	{
+		"cod": "REQ-A320-22",
+		"type": "course",
+		"name": "RAMP AND TRANSIT - A320 FAMILY ( IAE V2500 / CFM56 / PW1100G)"
+	},
+	{
+		"cod": "REQ-A320-25",
+		"type": "course",
+		"name": "A320 FAMILY (IAE V2500/CFM56/PW1100G) - TRANSITION LEVEL COURSE-FROM LEVEL 1 TO LEVEL 2"
+	},
+	{
+		"cod": "REQ-A320-32",
+		"type": "course",
+		"name": "LINE AND BASE-A320 FAMILY - (IAE V2500 / CFM56 / PW1100G)"
+	},
+	{
+		"cod": "REQ-A320-33",
+		"type": "course",
+		"name": "A320 FAMILY (IAE V2500/CFM56/PW1100G) - TRANSITION LEVEL COURSE-FROM LEVEL 2 TO LEVEL 3"
+	},
+	{
+		"cod": "REQ-A320-35",
+		"type": "course",
+		"name": "A320 FAMILY (ALL ENG) - RECURRENT TRAINING"
+	},
+	{
+		"cod": "REQ-A320-37",
+		"type": "course",
+		"name": "AIRCRAFT LINE AND BASE-A319/A320/A321 - PRATICAL TRAINING"
+	},
+	{
+		"cod": "REQ-A330-10",
+		"type": "course",
+		"name": "AIRCRAFT GENERAL FAMILIARIZATION - A330 (ALL ENG)"
+	},
+	{
+		"cod": "REQ-A330-20",
+		"type": "course",
+		"name": "AIRCRAFT RAMP - LINE MAINTENANCE DA AERONAVE A330/200"
+	},
+	{
+		"cod": "REQ-A330-21",
+		"type": "course",
+		"name": "AIRCRAFT RAMP AND TRANSIT - A330 WITH RR-TRENT 700"
+	},
+	{
+		"cod": "REQ-A330-23",
+		"type": "course",
+		"name": "RAMP AND TRANSIT - A330 (ALL ENG-PW4000 & CF6-80)"
+	},
+	{
+		"cod": "REQ-A330-34",
+		"type": "course",
+		"name": "LINE AND BASE A330 (ALL ENG-PW4000 & CF6-80)"
+	},
+	{
+		"cod": "REQ-A330-35",
+		"type": "course",
+		"name": "A330 (ALL ENG - PW4000 & CF6-80) RECURRENT TRAINING"
+	},
+	{
+		"cod": "REQ-A330-36",
+		"type": "course",
+		"name": "AIRCRAFT LINE AND BASE-A330 - PRATICAL TRAINING"
+	},
+	{
+		"cod": "REQ-A350-35",
+		"type": "course",
+		"name": "REFRESHMENT A350"
+	},
+	{
+		"cod": "REQ-ATR-20",
+		"type": "course",
+		"name": "AIRCRAFT RAMP AND TRANSIT – ATR-72-200-210-500 (ENGINES-PW 124/127)"
+	},
+	{
+		"cod": "REQ-ATR-30",
+		"type": "course",
+		"name": "LINE AND BASE ATR 42-300/320 (PW 120/121)"
+	},
+	{
+		"cod": "REQ-ATR-31",
+		"type": "course",
+		"name": "LINE AND BASE - ATR 72-200/210/212"
+	},
+	{
+		"cod": "REQ-ATR-32",
+		"type": "course",
+		"name": "RAMP AND TRANSIT - ATR 72-200/210/212"
+	},
+	{
+		"cod": "REQ-ATR-33",
+		"type": "course",
+		"name": "RAMP AND TRANSIT - ATR 42-300/320 (PW120/121)"
+	},
+	{
+		"cod": "REQ-ATR-35",
+		"type": "course",
+		"name": "AIRCRAFT ATR-42-300/320 - REFRESHMENT WITH PW 120/121 ENGINES"
+	},
+	{
+		"cod": "REQ-ATR-45",
+		"type": "course",
+		"name": "AIRCRAFT ATR-72-200/210/500 - REFRESHMENT WITH PW 124/127 ENGINES"
+	},
+	{
+		"cod": "REQ-B767-10",
+		"type": "course",
+		"name": "AIRCRAFT GENERAL FAMILIARIZATION B767-300ER - WITH GE-CF6-80C2 ENGINES"
+	},
+	{
+		"cod": "REQ-B767-20",
+		"type": "course",
+		"name": "RAMP AND TRANSIT B767-300ER/300F - (WITH GE-CF6-80C2-B6F ENGINES)"
+	},
+	{
+		"cod": "REQ-B767-30",
+		"type": "course",
+		"name": "LINE AND BASE - B767-200/300ER"
+	},
+	{
+		"cod": "REQ-B767-31",
+		"type": "course",
+		"name": "AIRCRAFT LINE AND BASE - B767-200/300 ESTRUTURAS"
+	},
+	{
+		"cod": "REQ-B767-32",
+		"type": "course",
+		"name": "AIRCRAFT LINE AND BASE - B767-MÓDULO HCT"
+	},
+	{
+		"cod": "REQ-B767-33",
+		"type": "course",
+		"name": "AIRCRAFT LINE AND BASE - B767 - MÓDULO MOTOR (GE CF6-80 C2)"
+	},
+	{
+		"cod": "REQ-B767-34",
+		"type": "course",
+		"name": "AIRCRAFT LINE AND BASE - B767-200/300 AVIÔNICA"
+	},
+	{
+		"cod": "REQ-B767-35",
+		"type": "course",
+		"name": "AIRCRAFT LINE AND BASE-B767 - MÓDULO SISTEMAS DIVERSOS"
+	},
+	{
+		"cod": "REQ-B767-36",
+		"type": "course",
+		"name": "AIRCRAFT LINE AND BASE-B767 - MÓDULO ELÉTRICA E LUZES"
+	},
+	{
+		"cod": "REQ-B767-37",
+		"type": "course",
+		"name": "B767-300ER/300F (WITH GE-CF6-80C2-B6F ENGINES) TRANSITION LEVEL COURSE - FROM LEVEL 2 TO LEVEL 3"
+	},
+	{
+		"cod": "REQ-B767-45",
+		"type": "course",
+		"name": "AIRCRAFT B767-300E - REFRESHMENT"
+	},
+	{
+		"cod": "REQ-CMT-01",
+		"type": "course",
+		"name": "COMPOSITE MATERIAL COMPONENTS REPAIR"
+	},
+	{
+		"cod": "REQ-ELE-01",
+		"type": "course",
+		"name": "ELETRICAL ACCESSORIES COMPONENTS"
+	},
+	{
+		"cod": "REQ-ELO-01",
+		"type": "course",
+		"name": "ELECTRONIC COMPONENTS"
+	},
+	{
+		"cod": "REQ-EMB-20",
+		"type": "course",
+		"name": "AIRCRAFT RAMP AND TRANSIT EMBRAER ERJ 170/190 WITH GE CF34"
+	},
+	{
+		"cod": "REQ-EMB-30",
+		"type": "course",
+		"name": "LINE AND BASE-ERJ 170/190 GE CF34-08/10"
+	},
+	{
+		"cod": "REQ-EMB-35",
+		"type": "course",
+		"name": "AIRCRAFT EMBRAER 170/175/190/195 REFRESHMENT WITH CF 34-08-10"
+	},
+	{
+		"cod": "REQ-EMB-36",
+		"type": "course",
+		"name": "AIRCRAFT LINE AND BASE - EMB 170/190 - PRATICAL TRAINING"
+	},
+	{
+		"cod": "REQ-EME-01",
+		"type": "course",
+		"name": "EMERGENCY EQUIPMENT COMPONENTS"
+	},
+	{
+		"cod": "REQ-GEN-10",
+		"type": "course",
+		"name": "MAINTENANCE HUMAN FACTORS"
+	},
+	{
+		"cod": "REQ-GEN-110",
+		"type": "course",
+		"name": "QUALITY AUDITOR COURSE"
+	},
+	{
+		"cod": "REQ-GEN-111",
+		"type": "course",
+		"name": "QUALITY MANAGEMENT SYSTEM (ISO 9001) COURSE"
+	},
+	{
+		"cod": "REQ-GEN-120",
+		"type": "course",
+		"name": "INTRODUCTION TO SAFETY AND ENVIRONMENT - INITIAL AND RECURRENT TRAINING"
+	},
+	{
+		"cod": "REQ-GEN-121",
+		"type": "course",
+		"name": "TRAINING PACKAGE SHE 02"
+	},
+	{
+		"cod": "REQ-GEN-122",
+		"type": "course",
+		"name": "TRAINING PACKAGE SHE 03"
+	},
+	{
+		"cod": "REQ-GEN-123",
+		"type": "course",
+		"name": "TRAINING PACKAGE SHE 04"
+	},
+	{
+		"cod": "REQ-GEN-124",
+		"type": "course",
+		"name": "TRAINING PACKAGE SHE 05"
+	},
+	{
+		"cod": "REQ-GEN-125",
+		"type": "course",
+		"name": "WASTEWATER TREATMENT MRO"
+	},
+	{
+		"cod": "REQ-GEN-126",
+		"type": "course",
+		"name": "MANAGEMENT OF GREEN AREAS"
+	},
+	{
+		"cod": "REQ-GEN-127",
+		"type": "course",
+		"name": "SHE QUALIFICATION OF SUPPLIERS TAM MRO"
+	},
+	{
+		"cod": "REQ-GEN-128",
+		"type": "course",
+		"name": "INTERNAL ENVIRONMENTAL AUDITOR (ISO 14001)"
+	},
+	{
+		"cod": "REQ-GEN-140",
+		"type": "course",
+		"name": "ELECTRICAL WIRING INTERCONNECTION SYSTEMS - EWIS"
+	},
+	{
+		"cod": "REQ-GEN-141",
+		"type": "course",
+		"name": "INTRODUCTION TO ELECTRICAL WIRING INTERCONNECTION SYSTEMS - EWIS"
+	},
+	{
+		"cod": "REQ-GEN-142",
+		"type": "course",
+		"name": "ELECTRICAL WIRING INTERCONNECTION SYSTEMS - EWIS - RECURRENT COURSE"
+	},
+	{
+		"cod": "REQ-GEN-143",
+		"type": "course",
+		"name": "INTRODUCTION TO ELECTRICAL WIRING INTERCONNECTION SYSTEMS-EWIS RECURRENT TRAINING"
+	},
+	{
+		"cod": "REQ-GEN-144",
+		"type": "course",
+		"name": "REFUELING AND DEFUELING PRACTICAL PROCEDURES"
+	},
+	{
+		"cod": "REQ-GEN-145",
+		"type": "course",
+		"name": "INTRODUCTION OF THE ENVIRONMENT - INTEGRATION AND REFRESHER"
+	},
+	{
+		"cod": "REQ-GEN-146",
+		"type": "course",
+		"name": "INTRODUCTION OF THE SAFETY WORK - INTEGRATION AND REFRESHER"
+	},
+	{
+		"cod": "REQ-GEN-15",
+		"type": "course",
+		"name": "MAINTENANCE HUMAN FACTORS - RECURRENT TRAINING"
+	},
+	{
+		"cod": "REQ-GEN-151",
+		"type": "course",
+		"name": "FUEL TANK WORKS - TECHNICAL TRAINING"
+	},
+	{
+		"cod": "REQ-GEN-152",
+		"type": "course",
+		"name": "EMERGENCY BRIGADE"
+	},
+	{
+		"cod": "REQ-GEN-153",
+		"type": "course",
+		"name": "TAM MERCOSUR"
+	},
+	{
+		"cod": "REQ-GEN-154",
+		"type": "course",
+		"name": "HAZMAT BASED ON CFR TITLE 49 SUBTITLE 172.704 AND HYDROSTATIC TEST FOR HIGH PRESSURE CYLINDERS"
+	},
+	{
+		"cod": "REQ-GEN-155",
+		"type": "course",
+		"name": "NR35 – WORK AT HEIGHT"
+	},
+	{
+		"cod": "REQ-GEN-156",
+		"type": "course",
+		"name": "ACCIDENT PREVENTION INTERNAL COMMITTEE"
+	},
+	{
+		"cod": "REQ-GEN-157",
+		"type": "course",
+		"name": "NR35 - TRABALHO EM ALTURA - RECICLAGEM"
+	},
+	{
+		"cod": "REQ-GEN-158",
+		"type": "course",
+		"name": "INSPECTION CONCEPTS"
+	},
+	{
+		"cod": "REQ-GEN-159",
+		"type": "course",
+		"name": "ABANDONMENT LEADER OF AREA"
+	},
+	{
+		"cod": "REQ-GEN-160",
+		"type": "course",
+		"name": "MARSHALLING"
+	},
+	{
+		"cod": "REQ-GEN-161",
+		"type": "course",
+		"name": "NR35 + PTA"
+	},
+	{
+		"cod": "REQ-GEN-162",
+		"type": "course",
+		"name": "NR23 - BRIGADA DE INCÊNDIO BÁSICO"
+	},
+	{
+		"cod": "REQ-GEN-163",
+		"type": "course",
+		"name": "DELEGATE INSPECTOR"
+	},
+	{
+		"cod": "REQ-GEN-20",
+		"type": "course",
+		"name": "AERONAUTIC REGULATIONS AND INTERNAL PROCEDURES"
+	},
+	{
+		"cod": "REQ-GEN-23",
+		"type": "course",
+		"name": "EASA REGULATIONS"
+	},
+	{
+		"cod": "REQ-GEN-24",
+		"type": "course",
+		"name": "EASA AVIATION LEGISLATION"
+	},
+	{
+		"cod": "REQ-GEN-25",
+		"type": "course",
+		"name": "AERONAUTIC REGULATIONS AND INTERNAL PROCEDURES - RECURRENT TRAINING"
+	},
+	{
+		"cod": "REQ-GEN-26",
+		"type": "course",
+		"name": "RS/QCM FAMILIARIZATION"
+	},
+	{
+		"cod": "REQ-GEN-27",
+		"type": "course",
+		"name": "TAM REPAIR STATION/QUALITY CONTROL MANUAL - POLICIES & PROCEDURES"
+	},
+	{
+		"cod": "REQ-GEN-28",
+		"type": "course",
+		"name": "FAA REGULATIONS GENERAL FAMILIARIZATION - PART 145 & PART 43"
+	},
+	{
+		"cod": "REQ-GEN-29",
+		"type": "course",
+		"name": "EASA AVIATION LEGISLATION FOR MANAGERS"
+	},
+	{
+		"cod": "REQ-GEN-30",
+		"type": "course",
+		"name": "FUEL TANK SAFETY LEVEL II"
+	},
+	{
+		"cod": "REQ-GEN-31",
+		"type": "course",
+		"name": "FUEL TANK SAFETY LEVEL I"
+	},
+	{
+		"cod": "REQ-GEN-32",
+		"type": "course",
+		"name": "FAA REGULATIONS"
+	},
+	{
+		"cod": "REQ-GEN-34",
+		"type": "course",
+		"name": "SUSPECTED UNAPPROVED PART - BASIC"
+	},
+	{
+		"cod": "REQ-GEN-35",
+		"type": "course",
+		"name": "FUEL TANK SAFETY LEVEL II - RECURRENT TRAINING"
+	},
+	{
+		"cod": "REQ-GEN-36",
+		"type": "course",
+		"name": "HAZARDOUS MATERIAL - BASIC"
+	},
+	{
+		"cod": "REQ-GEN-37",
+		"type": "course",
+		"name": "TAM RS/QCM - RECURRENT TRAINING"
+	},
+	{
+		"cod": "REQ-GEN-38",
+		"type": "course",
+		"name": "AERONAUTIC REGULATIONS AND MANUALS PROCEDURES - RECURRENT TRAINING"
+	},
+	{
+		"cod": "REQ-GEN-40",
+		"type": "course",
+		"name": "RECEIVING INSPECTION"
+	},
+	{
+		"cod": "REQ-GEN-41",
+		"type": "course",
+		"name": "AIRCRAFT MATERIALS INCOMING AND RECEIVING INSPECTION-RECURRENT TRAINING"
+	},
+	{
+		"cod": "REQ-GEN-42",
+		"type": "course",
+		"name": "AIRCRAFT MATERIALS INCOMING INSPECTION"
+	},
+	{
+		"cod": "REQ-GEN-44",
+		"type": "course",
+		"name": "INCOMING INSPECTION - BASIC"
+	},
+	{
+		"cod": "REQ-GEN-46",
+		"type": "course",
+		"name": "INSPECTION TECHNIQUES"
+	},
+	{
+		"cod": "REQ-GEN-49",
+		"type": "course",
+		"name": "WHEELS AND BRAKES WORKSHOP TECHNOLOGICAL REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-50",
+		"type": "course",
+		"name": "ELETRONICS COMPONENTS WORKSHOP TECHNOLOGICAL REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-51",
+		"type": "course",
+		"name": "ELETRIC COMPONENTS WORKSHOP TECHNOLOGICAL REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-52",
+		"type": "course",
+		"name": "SEAT WORKSHOP TECHNOLOGICAL REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-53",
+		"type": "course",
+		"name": "STRUCTURES WORKSHOP TECHNOLOGICAL REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-54",
+		"type": "course",
+		"name": "HYDRAULICS WORKSHOP TECHNOLOGICAL REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-55",
+		"type": "course",
+		"name": "PNEUMATICS WORSHOP TECHNOLOGICAL REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-56",
+		"type": "course",
+		"name": "EMERGENCY EQUIPAMENT WORKSHOP TECHNOLOGICAL REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-57",
+		"type": "course",
+		"name": "LANDING GEAR WORKSHOP TECHNOLOGICAL REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-58",
+		"type": "course",
+		"name": "MACHINERY WORKSHOP TECHNOLOGICAL REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-59",
+		"type": "course",
+		"name": "PAINTING WORKSHOP TECHNOLOGICAL REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-60",
+		"type": "course",
+		"name": "TAPESTRY WORKSHOP TECHNOLOGICAL REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-61",
+		"type": "course",
+		"name": "DECORATIVE LAMINATES WORKSHOP TECHNOLOGICAL REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-62",
+		"type": "course",
+		"name": "COMPOSITE MATERIAL WORKSHOP TECHNOLOGICAL REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-63",
+		"type": "course",
+		"name": "ELECTROPLATING WORKSHOP TECHNOLOGICAL REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-64",
+		"type": "course",
+		"name": "THERMOPLASTIC WORKSHOP TECHNOLOGICAL REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-65",
+		"type": "course",
+		"name": "NDT WORKSHOP TECHNOLOGICAL REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-66",
+		"type": "course",
+		"name": "SUSPECTED UNAPPROVED PARTS - FAA ACADEMY"
+	},
+	{
+		"cod": "REQ-GEN-67",
+		"type": "course",
+		"name": "CERTIFICATION AND SURVEILLANCE OF PART 145 STATION-FAA ACADEMY"
+	},
+	{
+		"cod": "REQ-GEN-68",
+		"type": "course",
+		"name": "MISCELLANEOUS WORKSHOP TECHNOLOGICAL - REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-69",
+		"type": "course",
+		"name": "SILK SCREEN WORKSHOP TECHNOLOGICAL - REFRESHMENT"
+	},
+	{
+		"cod": "REQ-GEN-70",
+		"type": "course",
+		"name": "LIQUID PENETRANT - LEVEL I"
+	},
+	{
+		"cod": "REQ-GEN-71",
+		"type": "course",
+		"name": "LIQUID PENETRANT - LEVEL II"
+	},
+	{
+		"cod": "REQ-GEN-72",
+		"type": "course",
+		"name": "NR33 – CONFINED SPACE - INITIAL"
+	},
+	{
+		"cod": "REQ-GEN-73",
+		"type": "course",
+		"name": "MAGNETIC PARTICLE - LEVEL I"
+	},
+	{
+		"cod": "REQ-GEN-74",
+		"type": "course",
+		"name": "MAGNETIC PARTICLE - LEVEL II"
+	},
+	{
+		"cod": "REQ-GEN-75",
+		"type": "course",
+		"name": "NR33 ESPAÇO CONFINADO - RECICLAGEM"
+	},
+	{
+		"cod": "REQ-GEN-76",
+		"type": "course",
+		"name": "EDDY CURRENT - LEVEL I"
+	},
+	{
+		"cod": "REQ-GEN-77",
+		"type": "course",
+		"name": "EDDY CURRENT - LEVEL II"
+	},
+	{
+		"cod": "REQ-GEN-79",
+		"type": "course",
+		"name": "ULTRASONIC - LEVEL I"
+	},
+	{
+		"cod": "REQ-GEN-80",
+		"type": "course",
+		"name": "ULTRASONIC - LEVEL II"
+	},
+	{
+		"cod": "REQ-GEN-85",
+		"type": "course",
+		"name": "FAA REGULATIONS - BASIC"
+	},
+	{
+		"cod": "REQ-HYD-01",
+		"type": "course",
+		"name": "HYDRAULIC COMPONENTS"
+	},
+	{
+		"cod": "REQ-IDG-01",
+		"type": "course",
+		"name": "INTEGRATED DRIVEN GENERATOR COMPONENTS"
+	},
+	{
+		"cod": "REQ-LGE-01",
+		"type": "course",
+		"name": "NOSE LANDING AND GEAR COMPONENT SHOP"
+	},
+	{
+		"cod": "REQ-LGE-02",
+		"type": "course",
+		"name": "MAIN LANDING GEAR COMPONENT SHOP"
+	},
+	{
+		"cod": "REQ-MIS-01",
+		"type": "course",
+		"name": "MISCELLANEOUS COMPONENTS"
+	},
+	{
+		"cod": "REQ-PNE-01",
+		"type": "course",
+		"name": "PNEUMATICS COMPONENTS"
+	},
+	{
+		"cod": "REQ-SEA-01",
+		"type": "course",
+		"name": "SEATS COMPONENTS"
+	},
+	{
+		"cod": "REQ-STR-01",
+		"type": "course",
+		"name": "STRUCTURES COMPONENTS"
+	},
+	{
+		"cod": "REQ-TAM-02",
+		"type": "course",
+		"name": "ETOPS - MAINTENANCE CONCEPTS"
+	},
+	{
+		"cod": "REQ-TAM-04",
+		"type": "course",
+		"name": "TAM LINHAS AÉREAS MGM AND PROCEDURES - REFRESHMENT"
+	},
+	{
+		"cod": "REQ-TAM-06",
+		"type": "course",
+		"name": "ETOPS - MAINTENANCE CONCEPTS - RECURRENT"
+	},
+	{
+		"cod": "REQ-TAM-07",
+		"type": "course",
+		"name": "TAM AIRLINE REQUIRED INSPECTIONS ITEMS (IIO)"
+	},
+	{
+		"cod": "REQ-TPL-01",
+		"type": "course",
+		"name": "THERMOPLASTIC COMPONENTS"
+	},
+	{
+		"cod": "REQ-TPT-01",
+		"type": "course",
+		"name": "TAPESTRY COMPONENTS"
+	},
+	{
+		"cod": "REQ-UNI-01",
+		"type": "course",
+		"name": "MCM-GMM-MGM LATAM GROUP OPERATORS"
+	},
+	{
+		"cod": "REQ-UNI-02",
+		"type": "course",
+		"name": "RVSM/ PBN – LATAM GROUP OPERATORS"
+	},
+	{
+		"cod": "REQ-UNI-03",
+		"type": "course",
+		"name": "ILS CAT II/ III – LATAM GROUP OPERATORS"
+	},
+	{
+		"cod": "REQ-UNI-04",
+		"type": "course",
+		"name": "MCM-GMM-MGM LATAM GROUP OPERATORS REFRESHMENT"
+	},
+	{
+		"cod": "REQ-UNI-05",
+		"type": "course",
+		"name": "RVSM/ PBN – LATAM GROUP OPERATORS REFRESHMENT"
+	},
+	{
+		"cod": "REQ-UNI-06",
+		"type": "course",
+		"name": "ILS CAT II/ III – LATAM GROUP OPERATORS REFRESHMENT"
+	},
+	{
+		"cod": "REQ-WHB-01",
+		"type": "course",
+		"name": "WHEELS AND BRAKES COMPONENTS"
+	},
+	{
+		"cod": "SUP-A320-00",
+		"type": "course",
+		"name": "ENGINE RUN UP IAE V2500 A1-A5"
+	},
+	{
+		"cod": "SUP-A320-01",
+		"type": "course",
+		"name": "ENGINE RUN UP CFMI56-5B"
+	},
+	{
+		"cod": "SUP-A320-02",
+		"type": "course",
+		"name": "AIRCRAFT ENGINE RUN-UP AND TAXI – A319/A320/A321 WITH IAE V2500A1-A5 AND CFM56-5B"
+	},
+	{
+		"cod": "SUP-A320-35",
+		"type": "course",
+		"name": "ENGINE RUN UP - RECURRENT COURSE"
+	},
+	{
+		"cod": "SUP-A330-00",
+		"type": "course",
+		"name": "ENGINE RUN-UP - PW4168"
+	},
+	{
+		"cod": "SUP-A330-01",
+		"type": "course",
+		"name": "AIRCRAFT ENGINE RUN-UP - A330 WITH RR-TRENT 700"
+	},
+	{
+		"cod": "SUP-A330-02",
+		"type": "course",
+		"name": "ENGINE RUN UP - CF6-80E1-A3"
+	},
+	{
+		"cod": "SUP-A330-03",
+		"type": "course",
+		"name": "AIRCRAFT ENGINE RUN-UP - A330 WITH PW4168A AND GE-CF6-80E1-A3"
+	},
+	{
+		"cod": "SUP-A330-35",
+		"type": "course",
+		"name": "ENGINE RUN UP - RECURRENT COURSE"
+	},
+	{
+		"cod": "SUP-B767-00",
+		"type": "course",
+		"name": "AIRCRAFT ENGINE RUN-UP - 767 WITH GE-CF6-80C2-B6F"
+	},
+	{
+		"cod": "SUP-B767-03",
+		"type": "course",
+		"name": "ENGINE GE CF6-80C2-B6F – LINE MAINTENANCE"
+	},
+	{
+		"cod": "SUP-B767-35",
+		"type": "course",
+		"name": "ENGINE RUN UP - RECURRENT COURSE"
+	},
+	{
+		"cod": "SUP-GEN-01",
+		"type": "course",
+		"name": "CRITICAL SYSTEM INSPECTION"
+	},
+	{
+		"cod": "SUP-GEN-04",
+		"type": "course",
+		"name": "ENGINE LINE & BASE MAINTENANCE - RR-TAY-650-15"
+	},
+	{
+		"cod": "SUP-GEN-05",
+		"type": "course",
+		"name": "ENGINE LINE & BASE MAINTENANCE-IAE V2500 SERIES"
+	},
+	{
+		"cod": "SUP-GEN-06",
+		"type": "course",
+		"name": "ENGINE LINE & MAINTENANCE - PW4168A"
+	},
+	{
+		"cod": "SUP-GEN-07",
+		"type": "course",
+		"name": "ENGINE LINE & MAINTENANCE - CF6-80E1A3"
+	},
+	{
+		"cod": "SUP-GEN-08",
+		"type": "course",
+		"name": "ENGINE LINE & MAINTENANCE - CFM 56-5B SERIES"
+	},
+	{
+		"cod": "SUP-GEN-10",
+		"type": "course",
+		"name": "ENGINE LINE & BASE MAINTENANCE - PW6000"
+	},
+	{
+		"cod": "SUP-GEN-100",
+		"type": "course",
+		"name": "DAY-TO-DAY AIRCRAFT STRUCTURES COURSE AND FUNDAMENTAL PRACTICES"
+	},
+	{
+		"cod": "SUP-GEN-101",
+		"type": "course",
+		"name": "STRUCTURE REPAIR MANUAL TRAINING - COMPOSITES"
+	},
+	{
+		"cod": "SUP-GEN-102",
+		"type": "course",
+		"name": "STRUCTURE REPAIR MANUAL TRAINING - METALLIC"
+	},
+	{
+		"cod": "SUP-GEN-104",
+		"type": "course",
+		"name": "TAM MRO FAMILIARIZATION COURSE"
+	},
+	{
+		"cod": "SUP-GEN-105",
+		"type": "course",
+		"name": "GENERAL INTRODUCTION OF MANUALS COURSE"
+	},
+	{
+		"cod": "SUP-GEN-106",
+		"type": "course",
+		"name": "AIRBUS A320 FAMILY PRESENTATION COURSE"
+	},
+	{
+		"cod": "SUP-GEN-108",
+		"type": "course",
+		"name": "COMMISSION INTERNAL ACCIDENT PREVENTION"
+	},
+	{
+		"cod": "SUP-GEN-110",
+		"type": "course",
+		"name": "COLD WEATHER OPERATIONS"
+	},
+	{
+		"cod": "SUP-GEN-112",
+		"type": "course",
+		"name": "A320 PASSENGER DOOR ESCAPE SLIDE REMOVAL AND INSTALLATION"
+	},
+	{
+		"cod": "SUP-GEN-113",
+		"type": "course",
+		"name": "ENVIRONMENTAL ASPECTS AND IMPACTS"
+	},
+	{
+		"cod": "SUP-GEN-114",
+		"type": "course",
+		"name": "FORMATION OF ENVIRONMENTAL MULTIPLIER"
+	},
+	{
+		"cod": "SUP-GEN-115",
+		"type": "course",
+		"name": "AIRCRAFT MATERIALS INCOMING INSPECTION REGULATION EASA COMPLEMENT"
+	},
+	{
+		"cod": "SUP-GEN-116",
+		"type": "course",
+		"name": "CUTTING AND HANDLING OF METALLIC MATERIALS AND STANDARD PRACTICES"
+	},
+	{
+		"cod": "SUP-GEN-117",
+		"type": "course",
+		"name": "ELETRONICS – STANDARD PRACTICES"
+	},
+	{
+		"cod": "SUP-GEN-118",
+		"type": "course",
+		"name": "DAY-TO-DAY AIRCRAFT STRUCTURES COURSE AND FUNDAMENTALPRACTICES - LEVEL IIPRACTICES-LEVEL II"
+	},
+	{
+		"cod": "SUP-GEN-119",
+		"type": "course",
+		"name": "A330 PASSENGER DOOR ESCAPE SLIDE REMOVAL, INSTALLATION AND CONSERVATION PROCEDURES"
+	},
+	{
+		"cod": "SUP-GEN-12",
+		"type": "course",
+		"name": "EOS/ESD ELECTROSTATIC DISCHARGE"
+	},
+	{
+		"cod": "SUP-GEN-121",
+		"type": "course",
+		"name": "STANDARD PRACTICES – AVIONICS"
+	},
+	{
+		"cod": "SUP-GEN-122",
+		"type": "course",
+		"name": "PROFESSIONAL IMPROVEMENT PROGRAM - PIP"
+	},
+	{
+		"cod": "SUP-GEN-123",
+		"type": "course",
+		"name": "PERFIL WAREHOUSEMAN EXTERNO"
+	},
+	{
+		"cod": "SUP-GEN-124",
+		"type": "course",
+		"name": "TOOLBOX APPLICATION COURSE"
+	},
+	{
+		"cod": "SUP-GEN-125",
+		"type": "course",
+		"name": "LATAM CULTURE"
+	},
+	{
+		"cod": "SUP-GEN-126",
+		"type": "course",
+		"name": "FIELD TRIP"
+	},
+	{
+		"cod": "SUP-GEN-127",
+		"type": "course",
+		"name": "FLAPPER PEENING TRAINING - THEORY AND PRACTICES"
+	},
+	{
+		"cod": "SUP-GEN-128",
+		"type": "course",
+		"name": "METROLOGY"
+	},
+	{
+		"cod": "SUP-GEN-129",
+		"type": "course",
+		"name": "FAMILIARIZATION WITH THE MACHINERY OF STRUCTURES EQUIPMENT ROOM – WORKPLACE SAFETY CONCEPTS"
+	},
+	{
+		"cod": "SUP-GEN-13",
+		"type": "course",
+		"name": "EOS/ESD ELECTROSTATIC DISCHARGE - RECURRENT TRAINING"
+	},
+	{
+		"cod": "SUP-GEN-130",
+		"type": "course",
+		"name": "AIRCRAFT STRUCTURES - FUNDAMENTAL PRACTICES"
+	},
+	{
+		"cod": "SUP-GEN-131",
+		"type": "course",
+		"name": "DESPICABLE CONDITIONS"
+	},
+	{
+		"cod": "SUP-GEN-132",
+		"type": "course",
+		"name": "COMPONENTS EFFECTIVITY ON AIRCRAFT ILLUSTRATED PARTS CATALOGUE"
+	},
+	{
+		"cod": "SUP-GEN-134",
+		"type": "course",
+		"name": "NITAL ETCHING"
+	},
+	{
+		"cod": "SUP-GEN-135",
+		"type": "course",
+		"name": "DAY-TO-DAY AIRCRAFT STRUCTURES COURSE AND FUNDAMENTAL PRACTICES - LEVEL II PRACTICES-LOPA"
+	},
+	{
+		"cod": "SUP-GEN-14",
+		"type": "course",
+		"name": "DANGEROUS GOODS"
+	},
+	{
+		"cod": "SUP-GEN-15",
+		"type": "course",
+		"name": "DANGEROUS GOODS - RECURRENT COURSE"
+	},
+	{
+		"cod": "SUP-GEN-16",
+		"type": "course",
+		"name": "TEMPER ETCHING INSPECTION OF LOW ALLOY STEEL AIRCRAFT PARTS"
+	},
+	{
+		"cod": "SUP-GEN-19",
+		"type": "course",
+		"name": "BOROSCOPE INSPECTION - RR-TAY650-15"
+	},
+	{
+		"cod": "SUP-GEN-20",
+		"type": "course",
+		"name": "BOROSCOPE INSPECTION - IAE V2500 SERIES"
+	},
+	{
+		"cod": "SUP-GEN-21",
+		"type": "course",
+		"name": "BOROSCOPE INSPECTION - PW4168A"
+	},
+	{
+		"cod": "SUP-GEN-22",
+		"type": "course",
+		"name": "BOROSCOPE INSPECTION - CF6-80E1A3"
+	},
+	{
+		"cod": "SUP-GEN-23",
+		"type": "course",
+		"name": "BOROSCOPE INSPECTION - CFM56-5B SERIES"
+	},
+	{
+		"cod": "SUP-GEN-24",
+		"type": "course",
+		"name": "BOROSCOPE INSPECTION - CF6-80C"
+	},
+	{
+		"cod": "SUP-GEN-32",
+		"type": "course",
+		"name": "BOROSCOPE INSPECTION - PW6000"
+	},
+	{
+		"cod": "SUP-GEN-34",
+		"type": "course",
+		"name": "BOROSCOPE INSPECTION - PW120/121"
+	},
+	{
+		"cod": "SUP-GEN-38",
+		"type": "course",
+		"name": "BOROSCOPE INSPECTION CONCEPTS - IAE V2500 SERIES"
+	},
+	{
+		"cod": "SUP-GEN-39",
+		"type": "course",
+		"name": "BOROSCOPE INSPECTION CONCEPTS – CFM56-5B"
+	},
+	{
+		"cod": "SUP-GEN-40",
+		"type": "course",
+		"name": "TRAIN THE TRAINER"
+	},
+	{
+		"cod": "SUP-GEN-41",
+		"type": "course",
+		"name": "ENGINE LINE & BASE MAINTENANCE - IAE V2500 SERIES-THEORICAL"
+	},
+	{
+		"cod": "SUP-GEN-42",
+		"type": "course",
+		"name": "ENGINE LINE & BASE MAINTENANCE - CFM 56-5B-THEORICAL"
+	},
+	{
+		"cod": "SUP-GEN-80",
+		"type": "course",
+		"name": "INTERNAL CUSTOMER SERVICE"
+	}
 ]
