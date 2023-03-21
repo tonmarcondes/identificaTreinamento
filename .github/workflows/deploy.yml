@@ -1,4 +1,4 @@
-name: Deploy Identifica Treinamento
+name: Deploy Identifica Treinamento LATAM
 
 on:
   push:
@@ -9,22 +9,19 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Instalando o SSH
-        run: sudo apt-get install openssh-client
-      - name: Deploy do codigo
-        uses: easingthemes/ssh-deploy@main
-        # with:
-        #   ssh_private_key: ${{ secrets.PRIVATE_KEY }}
-        #   ssh_user: roots
-        #   ssh_host: 52.188.57.145
-        #   ssh_port: 22
-        #   source: ./
-        #   target: /var/www/html/
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          # SOURCE: ${{ secrets.SOURCE}}
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          TARGET: ${{ secrets.REMOTE_TARGET }}
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Instalando as dependencias
+      run: |
+        # comando para instalar as dependências necessárias, caso haja
+    - name: Deploy na Azure
+      uses: easingthemes/ssh-deploy@v2.2.8
+      with:
+        ssh-key: ''
+        ssh-host: ${{ secrets.REMOTE_HOST }}
+        ssh-port: ${{ secrets.REMOTE_PORT }}
+        ssh-user: ${{ secrets.REMOTE_USER }}
+        ssh-password: ${{ secrets.SSH_PASSWORD }}
+        local-recursive: 'true'
+        local-folder: '/var/www/html'
+        remote-folder: '/var/www/html'
