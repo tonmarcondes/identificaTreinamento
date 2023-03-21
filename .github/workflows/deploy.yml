@@ -17,11 +17,11 @@ jobs:
     - name: Deploy na Azure
       uses: easingthemes/ssh-deploy@v2.2.8
       with:
-        ssh-key: ''
-        ssh-host: ${{ secrets.REMOTE_HOST }}
-        ssh-port: ${{ secrets.REMOTE_PORT }}
-        ssh-user: ${{ secrets.REMOTE_USER }}
-        ssh-password: ${{ secrets.SSH_PASSWORD }}
-        local-recursive: 'true'
-        local-folder: '/var/www/html'
-        remote-folder: '/var/www/html'
+        SSH_PRIVATE_KEY: ''
+        REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+        REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
+        REMOTE_USER: ${{ secrets.REMOTE_USER }}
+        REMOTE_PASSWORD: ${{ secrets.SSH_PASSWORD }}
+        # local-recursive: 'true'
+        SOURCE: '/var/www/html'
+        TARGET: '/var/www/html'
