@@ -21,7 +21,7 @@ jobs:
         REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
         REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
         REMOTE_USER: ${{ secrets.REMOTE_USER }}
-        REMOTE_PASSWORD: ${{ secrets.SSH_PASSWORD }}
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PASSWORD }}
         # local-recursive: 'true'
         SOURCE: '/var/www/html'
         TARGET: '/var/www/html'
