@@ -13,7 +13,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y sshpass rsync
         
       - name: Acessando o Servidor
-        run: sshpass -p ${{ secrets.SSH_PASSWORD }} ssh ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}
+        run: xpect sshpass -p ${{ secrets.SSH_PASSWORD }} ssh ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}
 
         #      rsync -avz -e ssh ./ \
       - name: Fazendo o pull do repositorio
