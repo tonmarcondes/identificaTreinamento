@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup
-        run: sudo apt-get update && sudo apt-get install -y sshpass rsync
+        run: sudo apt-get update && sudo apt-get install -y sshpass rsync && sudo apt-get install -y expect
         
       - name: Acessando o Servidor
         run: expect sshpass -p ${{ secrets.SSH_PASSWORD }} ssh ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}
