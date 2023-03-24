@@ -9,11 +9,13 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: Setup
+        run: sudo apt-get update && sudo apt-get install -y sshpass rsync
+        
+      - name: Acessando o Servidor
+        run: sshpass -p ${{ secrets.SSH_PASSWORD }} ssh ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}
 
-      - name: Sync files to server
-        run: |
-          sshpass -p ${{ secrets.SSH_PASSWORD }} \
-          rsync -avz -e ssh ./ \
-          ${{ secrets.REMOTE_USER }}@ ${{ secrets.REMOTE_HOST }}:${{ secrets.REMOTE_TARGET }}
+        #      rsync -avz -e ssh ./ \
+      - name: Fazendo o pull do repositorio
+        run: cd ${{ secrets.REMOTE_TARGET }} && git pull origin main
+          
