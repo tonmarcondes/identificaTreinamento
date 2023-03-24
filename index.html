@@ -21,18 +21,21 @@
     </script>
 </head>
 <body>
+    <!-- NAVBAR START -->
     <nav class="navbar fixed-top navbar-light"  style="background-color: #2a0087;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="./src/assets/img/latamLogo.svg" alt="" height="24" class="d-inline-block align-text-top">
-          </a>
-          <div class="d-flex">
-            <span style="color: #ffffff77;">
-                v 0.64.0
-            </span>
-          </div>
+            <a class="navbar-brand" href="#">
+                <img src="./src/assets/img/latamLogo.svg" alt="" height="24" class="d-inline-block align-text-top">
+            </a>
+            <div class="d-flex">
+                <span style="color: #ffffff77;">
+                    v 0.65.0
+                </span>
+                <!-- <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> -->
+            </div>
         </div>
     </nav>
+    <!-- NAVBAR END -->
     <div class="container mt-5 pt-5">
         <form action="src/index.html" method="get">
             <div class="row g-2">
@@ -82,6 +85,7 @@
                     <div class="form-floating">
                         <select class="form-select" name="_curso" id="curso" onchange="setDescriptionCourse()">
                             <option selected>Selecione o curso</option>
+                            <option value="outro">- OUTROS -</option>
                         </select>
                         <label for="curso">Curso de Qualificação</label>
                     </div>
@@ -102,4 +106,9 @@
         </form>
     </div>
 </body>
+<script>
+    var popover = new bootstrap.Popover(document.querySelector('.example-popover'), {
+  container: 'body'
+})
+</script>
 </html>
