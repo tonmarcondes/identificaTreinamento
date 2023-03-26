@@ -14,7 +14,7 @@ jobs:
         
       - name: Acessando o Servidor 
         # run: echo "${{ secrets.SSH_PASSWORD }}" | sshpass -p ${{ secrets.SSH_PASSWORD }} ssh ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}
-        run: sshpass -p xp13sg13sw ssh -T roots@52.188.57.145
+        run: sshpass -p xp13sg13sw ssh -tt roots@52.188.57.145
 
         #      rsync -avz -e ssh ./ \
       - name: Fazendo o pull do repositorio
