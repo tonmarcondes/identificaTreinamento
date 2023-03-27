@@ -20,8 +20,10 @@ jobs:
           port: ${{ secrets.REMOTE_PORT }}
           connect_timeout: 10s
           last_ssh: |
-            cd /var/www/html &&
-            rm -rf * &&
+            cd /var/www &&
+            sudo rm -rf * &&
             git clone https://github.com/tonmarcondes/identificaTreinamento.git &&
             mv identificaTreinamento html &&
+            cd html &&
+            npm install &&
             echo $WELCOME
