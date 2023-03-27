@@ -11,22 +11,15 @@ jobs:
     steps:
       - name: Setup
         uses: cross-the-world/ssh-scp-ssh-pipelines@latest
+        env:
+          WELCOME: "SSH Pipeline finalizado"
         with:
-          # ssh remote host
           host: ${{ secrets.REMOTE_HOST }}
-          # ssh remote port
-          # port: # optional, default is 22
-          # ssh remote user
-          user: root
-          # content of ssh private key. ex raw content of ~/.ssh/id_rsa
-          # key: # optional
-          # ssh remote password
+          user: ${{ secrets.REMOTE_USER }}
           pass: ${{ secrets.SSH_PASSWORD }}
-          # connection timeout to remote host
-          # connect_timeout: # optional, default is 30s
-          # execute pre-commands before scp
-          # first_ssh: # optional
-          # scp from local to remote
-          # scp: # optional
-          # execute post-commands after scp
-          last_ssh: cd ${{ secrets.REMOTE_TARGET }} && git pull origin main && npm install && npm run build && pm2 restart all
+          port: ${{ secrets.REMOTE_PORT }}
+          connect_timeout: 10s
+          script: |
+            cd ${{ secrets.REMOTE_TARGET }} && 
+            git pull origin main &&
+            echo $WELCOME
