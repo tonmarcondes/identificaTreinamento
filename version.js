@@ -10,7 +10,7 @@ const packageObj = JSON.parse(packageJson);
 const currentVersion = packageObj.version;
 
 // Ler as regras de versão definidas no arquivo semver.config.js
-const semverConfig = require("./semver.config");
+const semverConfig = require("semver.config");
 
 // Atualizar a versão usando o SemVer
 const newVersion = getNextVersion(currentVersion, semverConfig.release);
