@@ -26,5 +26,4 @@ jobs:
             sudo mv identificaTreinamento html &&
             cd html &&
             sudo npm install &&
-            # sudo node ./version.js &&
             echo $WELCOME
