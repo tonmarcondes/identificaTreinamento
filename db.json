@@ -7,40 +7,50 @@
 	{
 		"cod": "1",
 		"type": "coach",
-		"name": "FABIANO APARECIDO URBANO"
+		"name": "CRISTIANO FORJES CAGLIUMI"
 	},
 	{
 		"cod": "2",
 		"type": "coach",
-		"name": "HEBER LUIZ ZUNARELLI MARTINS"
+		"name": "DENIS FRANCISCO XAVIER SIMÕES"
 	},
 	{
 		"cod": "3",
 		"type": "coach",
-		"name": "MARLON ROGERIO LEDESMA"
+		"name": "FABIANO APARECIDO URBANO"
 	},
 	{
 		"cod": "4",
 		"type": "coach",
-		"name": "RAFAEL GUILLEN ALVES MURTA"
+		"name": "HEBER LUIZ ZUNARELLI MARTINS"
 	},
 	{
 		"cod": "5",
 		"type": "coach",
-		"name": "VINICIUS SOUZA CUNHA"
+		"name": "MARLON ROGERIO LEDESMA"
 	},
 	{
 		"cod": "6",
 		"type": "coach",
-		"name": "WELLYNGTON MARCONDES"
+		"name": "RAFAEL GUILLEN ALVES MURTA"
 	},
 	{
 		"cod": "7",
 		"type": "coach",
-		"name": "WENDEL MACHADO PENIDO"
+		"name": "VINICIUS SOUZA CUNHA"
 	},
 	{
 		"cod": "8",
+		"type": "coach",
+		"name": "WELLYNGTON MARCONDES"
+	},
+	{
+		"cod": "9",
+		"type": "coach",
+		"name": "WENDEL MACHADO PENIDO"
+	},
+	{
+		"cod": "9",
 		"type": "coach",
 		"name": "WILLIAM RIUKSTEIN"
 	},
