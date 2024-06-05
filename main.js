@@ -58,14 +58,21 @@ const createSelectCourseOptions = () => {
   })
 }
 
+
 const createCoachOptions = () => {
-  let selectCoach = document.getElementById('instrutor')
-  
-  CoachersName.forEach(element => {
-    let option = document.createElement('option')
-    option.innerHTML = element.name
-    selectCoach.appendChild(option)
-  })
+
+ // Seleciona o datalist
+ const datalist = document.getElementById('instrutores');
+
+ // Limpa o datalist antes de adicionar novos itens
+ datalist.innerHTML = '';
+
+ // Função para criar opções no datalist
+ CoachersName.forEach(element => {
+     const option = document.createElement('option');
+     option.setAttribute("value", element.name);
+     datalist.appendChild(option);
+ });
 }
 
 const setDescriptionCourse = () => {

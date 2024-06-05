@@ -12,6 +12,7 @@
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Service Worker/Manifest -->
     <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="./src/assets/css/style.css">
     <script>
         if ('serviceWorker' in navigator) {
           window.addEventListener('load', function() {
@@ -28,7 +29,7 @@
                 <img src="./src/assets/img/latamLogo.svg" alt="" height="24" class="d-inline-block align-text-top">
             </a>
             <div class="d-flex">
-                <span style="color: #ffffff77;">v 0.66.0</span>
+                <span style="color: #ffffff77;">v 0.79.0</span>
                 <!-- <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> -->
             </div>
         </div>
@@ -39,10 +40,11 @@
             <div class="row g-2">
                 <div class="col-md-4">
                     <div class="form-floating">
-                        <select class="form-select" name="_instrutor" id="instrutor" required>
-                            <option selected value="">Selecione o instrutor</option>
-                        </select>
-                        <label for="instrutor">Instrutor</label>
+                        <input list="instrutores" class="form-select" name="_instrutor" id="instrutor" required="" placeholder="">
+                        <datalist id="instrutores">
+                            <option value="Selecione o instrutor">
+                        </datalist>
+                        <label for="instrutor">Selecione ou digite o nome do Instrutor</label>
                     </div>
                 </div>
                 <div class="col-md-2">
@@ -98,7 +100,7 @@
             <div class="row g-2">
                 <div class="col-12">
                     <!-- <button id="btEnviar" class="btn btn-lg btn-outline-primary mt-2 col-12" onclick="enviar()">Visualizar</button> -->
-                    <input type="submit" id="btEnviar" class="btn btn-lg btn-outline-primary mt-2 col-12" value="Visualizar">
+                    <input type="submit" id="btEnviar" class="btn-hide btn btn-lg btn-outline-primary mt-2 col-12" value="Visualizar">
                 </div>
             </div>
         </form>

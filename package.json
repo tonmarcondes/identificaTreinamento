@@ -1,6 +1,6 @@
 {
   "name": "identificatreinamento",
-  "version": "0.65.24",
+  "version": "0.66",
   "description": "Software para criação de identificação dos treinamentos na porta da sala dos instrutores",
   "main": "./components/api.js",
   "type": "module",
